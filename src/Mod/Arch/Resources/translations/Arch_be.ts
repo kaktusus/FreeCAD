@@ -638,7 +638,7 @@ IfcType:Wall - будуць улічвацца толькі аб'екты, ты�
     <message>
       <location filename="../ui/ArchNest.ui" line="177"/>
       <source>Preview</source>
-      <translation>Папярэдні прагляд</translation>
+      <translation>Папярэдні выгляд</translation>
     </message>
   </context>
   <context>
@@ -1126,8 +1126,7 @@ instead of the FreeCAD web workbench</source>
       <location filename="../ui/preferences-ifc.ui" line="54"/>
       <source>Shows verbose debug messages during import and export
 of IFC files in the Report view panel</source>
-      <translation>Адлюстроўвае падрабязныя паведамленні аб адладцы падчас імпартавання і экспартавання
-файлаў IFC на панэлі прагляду справаздачы</translation>
+      <translation>Адлюстроўвае падрабязныя паведамленні аб адладцы падчас імпартавання і экспартавання файлаў IFC на панэлі прагляду справаздачы</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="58"/>
@@ -4931,7 +4930,7 @@ Building creation aborted.</source>
       <translation>Колькасць слупоў, якія ўжытыя для ўзвядзення агароджы</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="269"/>
+      <location filename="../../ArchFence.py" line="263"/>
       <source>When true, the fence will be colored like the original post and section.</source>
       <translation>Калі true, агароджа будзе афарбавана аднолькава з зыходным слупам і секцыяй.</translation>
     </message>
@@ -6312,12 +6311,12 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Fence</name>
     <message>
-      <location filename="../../ArchFence.py" line="388"/>
+      <location filename="../../ArchFence.py" line="382"/>
       <source>Fence</source>
       <translation>Агароджа</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="391"/>
+      <location filename="../../ArchFence.py" line="385"/>
       <source>Creates a fence object from a selected section, post and path</source>
       <translation>Стварае аб'ект агароджы з абранага ўчастка, слупа і траекторыі</translation>
     </message>

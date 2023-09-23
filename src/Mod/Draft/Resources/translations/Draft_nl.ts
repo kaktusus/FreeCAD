@@ -335,11 +335,6 @@
       <translation>Cirkelvormig patroon</translation>
     </message>
     <message>
-      <location filename="../ui/TaskPanel_CircularArray.ui" line="44"/>
-      <source>(Placeholder for the icon)</source>
-      <translation>(Plaats reservering voor het pictogram)</translation>
-    </message>
-    <message>
       <location filename="../ui/TaskPanel_CircularArray.ui" line="53"/>
       <location filename="../ui/TaskPanel_CircularArray.ui" line="63"/>
       <source>Distance from one layer of objects to the next layer of objects.</source>
@@ -455,11 +450,6 @@ Een linkreeks is efficiënter bij het maken van meerdere kopieën, maar kan niet
       <location filename="../ui/TaskPanel_OrthoArray.ui" line="26"/>
       <source>Orthogonal array</source>
       <translation>Orthogonale matrix</translation>
-    </message>
-    <message>
-      <location filename="../ui/TaskPanel_OrthoArray.ui" line="44"/>
-      <source>(Placeholder for the icon)</source>
-      <translation>(Plaats reservering voor het pictogram)</translation>
     </message>
     <message>
       <location filename="../ui/TaskPanel_OrthoArray.ui" line="51"/>
@@ -592,11 +582,6 @@ Een linkreeks is efficiënter bij het maken van meerdere kopieën, maar kan niet
       <location filename="../ui/TaskPanel_PolarArray.ui" line="26"/>
       <source>Polar array</source>
       <translation>Polair matrix</translation>
-    </message>
-    <message>
-      <location filename="../ui/TaskPanel_PolarArray.ui" line="44"/>
-      <source>(Placeholder for the icon)</source>
-      <translation>(Plaats reservering voor het pictogram)</translation>
     </message>
     <message>
       <location filename="../ui/TaskPanel_PolarArray.ui" line="53"/>
@@ -1581,17 +1566,17 @@ Let op dat dit niet volledig ondersteund wordt en veel objecten niet bewerkt kun
       <translation>Teksten en afmetingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="26"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="35"/>
       <source>Text settings</source>
       <translation>Tekstinstellingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="34"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="43"/>
       <source>Font family</source>
       <translation>Lettertypefamilie</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="47"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="56"/>
       <source>This is the default font name for all Draft texts and dimensions.
 It can be a font name such as "Arial", a default style such as "sans", "serif"
 or "mono", or a family such as "Arial,Helvetica,sans" or a name with a style
@@ -1599,184 +1584,194 @@ such as "Arial:Bold"</source>
       <translation>Dit is de standaard naam van het lettertype voor alle Draft teksten en afmetingen. Het kan een font naam zijn, zoals "Arial", een standaard stijl, zoals "sans", "serif" of "mono", of een familie, zoals "Arial, Helvetica, sans" of een naam met een stijl zoals "Arial: Bold"</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="59"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="68"/>
       <source>Internal font</source>
       <translation>Intern lettertype</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="76"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="85"/>
       <source>Font size</source>
       <translation>Lettergrootte</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="89"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="98"/>
       <source>Default height for texts and dimensions</source>
       <translation>Standaardhoogte voor teksten en afmetingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="92"/>
-      <location filename="../ui/preferences-drafttexts.ui" line="211"/>
-      <location filename="../ui/preferences-drafttexts.ui" line="247"/>
-      <location filename="../ui/preferences-drafttexts.ui" line="283"/>
-      <location filename="../ui/preferences-drafttexts.ui" line="365"/>
-      <location filename="../ui/preferences-drafttexts.ui" line="432"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="101"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="220"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="256"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="292"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="374"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="441"/>
       <location filename="../ui/preferences-dxf.ui" line="535"/>
       <location filename="../ui/preferences-svg.ui" line="209"/>
       <source>mm</source>
       <translation>mm</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="116"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="125"/>
       <source>Dimension settings</source>
       <translation>Afmetingsinstellingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="124"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="133"/>
       <source>Display mode</source>
       <translation>Weergavemodus</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="144"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="153"/>
       <source>World</source>
       <translation>Wereld</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="149"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="158"/>
       <source>Screen</source>
       <translation>Scherm</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="161"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="170"/>
       <source>Number of decimals</source>
       <translation>Aantal decimalen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="201"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="210"/>
       <source>Extension lines size</source>
       <translation>Verlengingslijngrootte</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="208"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="217"/>
       <source>The default size of dimensions extension lines</source>
       <translation>De standaardgrootte van verlengingslijnen voor de afmetingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="237"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="246"/>
       <source>Extension line overshoot</source>
       <translation>Extensielijnoverschrijding</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="244"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="253"/>
       <source>The default length of extension line above dimension line</source>
       <translation>De standaardlengte van de verlengingslijn boven de afmetingslijn</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="273"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="282"/>
       <source>Dimension line overshoot</source>
       <translation>Afmetingslijnoverschrijding</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="280"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="289"/>
       <source>The default distance the dimension line is extended past extension lines</source>
       <translation>De standaardafstand waar de afmetingslijn voorbij de verlengingslijnen verlengd is</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="309"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="318"/>
       <source>Arrows style</source>
       <translation>Pijltype</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="323"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="332"/>
       <source>Dot</source>
       <translation>punt</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="328"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="337"/>
       <source>Circle</source>
       <translation>Cirkel</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="333"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="342"/>
       <source>Arrow</source>
       <translation>Pijl</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="338"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="347"/>
       <source>Tick</source>
       <translation>Vink</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="343"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="352"/>
       <source>Tick-2</source>
       <translation>Schuine streep-2</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="355"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="364"/>
       <source>Arrows size</source>
       <translation>Pijlgrootte</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="362"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="371"/>
       <source>The default size of arrows</source>
       <translation>De standaardgrootte van pijlen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="388"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="397"/>
       <source>Text orientation</source>
       <translation>Tekstoriëntatie</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="395"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="404"/>
       <source>This is the orientation of the dimension texts when those dimensions are vertical. Default is left, which is the ISO standard.</source>
       <translation>Dit is de plaats van de dimensie-teksten wanneer deze dimensies verticaal staan. Standaard is links, dat is de ISO-norm.</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="405"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="414"/>
       <source>Left (ISO standard)</source>
       <translation>Links (ISO-norm)</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="410"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="419"/>
       <source>Right</source>
       <translation>Rechts</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="422"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="431"/>
       <source>Text spacing</source>
       <translation>Tekstafstand</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="429"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="438"/>
       <source>The space between the dimension line and the dimension text</source>
       <translation>De afstand tussen de afmetingslijn en de afmetingstekst</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="455"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="464"/>
       <source>Show the unit suffix in dimensions</source>
       <translation>Toon het eenheidachtervoegsel in de afmetingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="475"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="484"/>
       <source>Override unit</source>
       <translation>Eenheid overschrijven</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="495"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="504"/>
       <source>By leaving this field blank, the dimension measurements will be shown in the current unit defined in FreeCAD. By indicating a unit here such as m or cm, you can force new dimensions to be shown in that unit.</source>
       <translation>Door dit veld leeg te laten, worden de afmetingen weergegeven in de huidige eenheid die is gedefinieerd in FreeCAD. Door hier een eenheid zoals m of cm aan te geven, kun je de nieuwe afmetingen in die eenheid afdwingen.</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="513"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="521"/>
+      <source>Feet separator</source>
+      <translation type="unfinished">Feet separator</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-drafttexts.ui" line="541"/>
+      <source>Optional string to appear between the feet and inches values in dimensions</source>
+      <translation type="unfinished">Optional string to appear between the feet and inches values in dimensions</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-drafttexts.ui" line="559"/>
       <source>ShapeString settings</source>
       <translation>ShapeString-instellingen</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="521"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="567"/>
       <source>Default ShapeString font file</source>
       <translation>Standaard ShapeString-lettertypebestand</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-drafttexts.ui" line="534"/>
+      <location filename="../ui/preferences-drafttexts.ui" line="580"/>
       <source>Select a font file</source>
       <translation>Kies een lettertypebestand</translation>
     </message>
@@ -2311,7 +2306,8 @@ This might fail for post DXF R12 templates.</translation>
     <message>
       <location filename="../ui/preferences-draftsnap.ui" line="338"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If checked, the outline of a human figure is displayed at the bottom left corner of the grid. This option is only effective if the BIM workbench is installed and if &amp;quot;Show grid border&amp;quot; option is enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If checked, the outline of a human figure is displayed at the bottom left corner of the grid. This option is only effective if the BIM workbench is installed and if &amp;quot;Show grid border&amp;quot; option is enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>Indien aangevinkt wordt de omtrek van een menselijke figuur weergegeven in de linker onderhoek van het raster.
+Deze optie is alleen van toepassing als de BIM-werkbank is geïnstalleerd en als de &amp;quot;Rasterrand weergeven&amp;quot; optie is ingeschakeld.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-draftsnap.ui" line="341"/>
@@ -3158,7 +3154,7 @@ Not available if Draft preference option 'Use Part Primitives' is enabled</trans
       <location filename="../../DraftGui.py" line="970"/>
       <location filename="../../DraftGui.py" line="971"/>
       <source>Local {}</source>
-      <translation type="unfinished">Local {}</translation>
+      <translation>Lokaal {}</translation>
     </message>
     <message>
       <location filename="../../DraftGui.py" line="973"/>
@@ -3168,7 +3164,7 @@ Not available if Draft preference option 'Use Part Primitives' is enabled</trans
       <location filename="../../DraftGui.py" line="978"/>
       <location filename="../../DraftGui.py" line="979"/>
       <source>Global {}</source>
-      <translation type="unfinished">Global {}</translation>
+      <translation>Globaal {}</translation>
     </message>
     <message>
       <location filename="../../DraftGui.py" line="1555"/>
@@ -3201,43 +3197,43 @@ Not available if Draft preference option 'Use Part Primitives' is enabled</trans
       <translation>Schets</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="292"/>
-      <location filename="../../importDWG.py" line="310"/>
-      <location filename="../../importDWG.py" line="329"/>
-      <location filename="../../importDWG.py" line="376"/>
-      <location filename="../../importDWG.py" line="390"/>
-      <location filename="../../importDWG.py" line="401"/>
+      <location filename="../../importDWG.py" line="293"/>
+      <location filename="../../importDWG.py" line="311"/>
+      <location filename="../../importDWG.py" line="330"/>
+      <location filename="../../importDWG.py" line="377"/>
+      <location filename="../../importDWG.py" line="391"/>
+      <location filename="../../importDWG.py" line="402"/>
       <source>Converting:</source>
       <translation type="unfinished">Converting:</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="296"/>
-      <location filename="../../importDWG.py" line="315"/>
-      <location filename="../../importDWG.py" line="333"/>
+      <location filename="../../importDWG.py" line="297"/>
+      <location filename="../../importDWG.py" line="316"/>
+      <location filename="../../importDWG.py" line="334"/>
       <source>Conversion successful</source>
       <translation type="unfinished">Conversion successful</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="301"/>
-      <location filename="../../importDWG.py" line="381"/>
+      <location filename="../../importDWG.py" line="302"/>
+      <location filename="../../importDWG.py" line="382"/>
       <source>LibreDWG converter not found</source>
       <translation type="unfinished">LibreDWG converter not found</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="320"/>
-      <location filename="../../importDWG.py" line="395"/>
+      <location filename="../../importDWG.py" line="321"/>
+      <location filename="../../importDWG.py" line="396"/>
       <source>ODA converter not found</source>
       <translation type="unfinished">ODA converter not found</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="338"/>
-      <location filename="../../importDWG.py" line="406"/>
+      <location filename="../../importDWG.py" line="339"/>
+      <location filename="../../importDWG.py" line="407"/>
       <source>QCAD converter not found</source>
       <translation type="unfinished">QCAD converter not found</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="343"/>
-      <location filename="../../importDWG.py" line="411"/>
+      <location filename="../../importDWG.py" line="344"/>
+      <location filename="../../importDWG.py" line="412"/>
       <source>No suitable external DWG converter has been found.
 Please set one manually under menu Edit -&gt; Preferences -&gt; Import/Export -&gt; DWG
 For more information see:
@@ -3248,7 +3244,7 @@ For more information see:
 https://wiki.freecad.org/Import_Export_Preferences</translation>
     </message>
     <message>
-      <location filename="../../importDWG.py" line="283"/>
+      <location filename="../../importDWG.py" line="284"/>
       <source>Error during DWG conversion.
 Try moving the DWG file to a directory path without spaces and non-english characters,
 or try saving to a lower DWG version.</source>
@@ -3267,7 +3263,7 @@ or try saving to a lower DWG version.</source>
       <translation type="unfinished">Selected Shapes must define a plane</translation>
     </message>
     <message>
-      <location filename="../../importDXF.py" line="152"/>
+      <location filename="../../importDXF.py" line="153"/>
       <source>The DXF import/export libraries needed by FreeCAD to handle
 the DXF format were not found on this system.
 Please either enable FreeCAD to download these libraries:
@@ -3656,7 +3652,7 @@ To enabled FreeCAD to download these libraries, answer Yes.</translation>
     <message>
       <location filename="../../draftguitools/gui_arcs.py" line="254"/>
       <location filename="../../draftguitools/gui_arcs.py" line="270"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="410"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="406"/>
       <location filename="../../draftguitools/gui_polygons.py" line="196"/>
       <location filename="../../draftguitools/gui_polygons.py" line="207"/>
       <location filename="../../draftguitools/gui_polygons.py" line="267"/>
@@ -3666,22 +3662,22 @@ To enabled FreeCAD to download these libraries, answer Yes.</translation>
     <message>
       <location filename="../../draftguitools/gui_arcs.py" line="277"/>
       <location filename="../../draftguitools/gui_arcs.py" line="278"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="445"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="446"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="441"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="442"/>
       <source>Start angle</source>
       <translation>Starthoek</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_arcs.py" line="283"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="451"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="447"/>
       <source>Pick start angle</source>
       <translation>Kies starthoek</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_arcs.py" line="285"/>
       <location filename="../../draftguitools/gui_arcs.py" line="286"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="453"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="454"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="449"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="450"/>
       <source>Aperture angle</source>
       <translation type="unfinished">Aperture angle</translation>
     </message>
@@ -3701,23 +3697,23 @@ To enabled FreeCAD to download these libraries, answer Yes.</translation>
       <translation>Maak Cirkel</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="369"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="365"/>
       <source>Create Arc (Part)</source>
       <translation type="unfinished">Create Arc (Part)</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="389"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="385"/>
       <source>Create Arc</source>
       <translation type="unfinished">Create Arc</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="465"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="461"/>
       <source>Pick aperture angle</source>
       <translation type="unfinished">Pick aperture angle</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="508"/>
-      <location filename="../../draftguitools/gui_arcs.py" line="550"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="504"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="546"/>
       <source>Arc by 3 points</source>
       <translation type="unfinished">Arc by 3 points</translation>
     </message>
@@ -4376,7 +4372,7 @@ The final angle will be the base angle plus this amount.</translation>
       <translation>Rechthoek maken</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_mirror.py" line="73"/>
+      <location filename="../../draftguitools/gui_mirror.py" line="74"/>
       <source>Select an object to mirror</source>
       <translation>Selecteer een object om te spiegelen</translation>
     </message>
@@ -4391,8 +4387,8 @@ The final angle will be the base angle plus this amount.</translation>
       <translation type="unfinished">Mirror</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_mirror.py" line="173"/>
-      <location filename="../../draftguitools/gui_mirror.py" line="199"/>
+      <location filename="../../draftguitools/gui_mirror.py" line="163"/>
+      <location filename="../../draftguitools/gui_mirror.py" line="189"/>
       <source>Pick end point of mirror line</source>
       <translation>Kies het eindpunt van de spiegellijn</translation>
     </message>
@@ -4690,12 +4686,12 @@ The final angle will be the base angle plus this amount.</translation>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="114"/>
       <source>added 'Justification', 'JustificationReference', 'KeepLeftMargin', 'ScaleToSize' and 'Fuse' properties</source>
-      <translation type="unfinished">added 'Justification', 'JustificationReference', 'KeepLeftMargin', 'ScaleToSize' and 'Fuse' properties</translation>
+      <translation>de eigenschappen "Uitlijning", "UitlijningsReferentie", "HoudLinkerMarge", "SchaalNaarMaat" en "Samenvoegen" zijn toegevoegd</translation>
     </message>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="116"/>
       <source>changed 'Tracking' property type</source>
-      <translation type="unfinished">changed 'Tracking' property type</translation>
+      <translation>type van eigenschap "Volgen" is gewijzigd</translation>
     </message>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="168"/>
@@ -5446,7 +5442,7 @@ The final angle will be the base angle plus this amount.</translation>
   <context>
     <name>Draft</name>
     <message>
-      <location filename="../../importDXF.py" line="135"/>
+      <location filename="../../importDXF.py" line="136"/>
       <source>Download of dxf libraries failed.
 Please install the dxf Library addon manually
 from menu Tools -&gt; Addon Manager</source>
@@ -5740,12 +5736,12 @@ from menu Tools -&gt; Addon Manager</translation>
   <context>
     <name>ImportSVG</name>
     <message>
-      <location filename="../../importSVG.py" line="1815"/>
+      <location filename="../../importSVG.py" line="1821"/>
       <source>Unknown SVG export style, switching to Translated</source>
       <translation type="unfinished">Unknown SVG export style, switching to Translated</translation>
     </message>
     <message>
-      <location filename="../../importSVG.py" line="1835"/>
+      <location filename="../../importSVG.py" line="1841"/>
       <source>The export list contains no object with a valid bounding box</source>
       <translation type="unfinished">The export list contains no object with a valid bounding box</translation>
     </message>
@@ -6153,12 +6149,12 @@ CTRL to snap, SHIFT to constrain.</translation>
   <context>
     <name>Draft_Arc_3Points</name>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="486"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="482"/>
       <source>Arc by 3 points</source>
       <translation type="unfinished">Arc by 3 points</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="489"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="485"/>
       <source>Creates a circular arc by picking 3 points.
 CTRL to snap, SHIFT to constrain.</source>
       <translation type="unfinished">Creates a circular arc by picking 3 points.
@@ -6168,12 +6164,12 @@ CTRL to snap, SHIFT to constrain.</translation>
   <context>
     <name>Draft_ArcTools</name>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="613"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="609"/>
       <source>Arc tools</source>
-      <translation type="unfinished">Arc tools</translation>
+      <translation>Booggereedschappen</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_arcs.py" line="616"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="612"/>
       <source>Create various types of circular arcs.</source>
       <translation type="unfinished">Create various types of circular arcs.</translation>
     </message>
@@ -6561,7 +6557,7 @@ CTRL to snap, SHIFT to constrain.</translation>
     <message>
       <location filename="../../draftguitools/gui_beziers.py" line="492"/>
       <source>Bézier tools</source>
-      <translation type="unfinished">Bézier tools</translation>
+      <translation>Bézier-gereedschappen</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_beziers.py" line="495"/>
@@ -6819,12 +6815,12 @@ then draw a line to specify the distance and direction of stretching.</translati
   <context>
     <name>Draft_Mirror</name>
     <message>
-      <location filename="../../draftguitools/gui_mirror.py" line="63"/>
+      <location filename="../../draftguitools/gui_mirror.py" line="64"/>
       <source>Mirror</source>
       <translation>Spiegel</translation>
     </message>
     <message>
-      <location filename="../../draftguitools/gui_mirror.py" line="66"/>
+      <location filename="../../draftguitools/gui_mirror.py" line="67"/>
       <source>Mirrors the selected objects along a line defined by two points.</source>
       <translation type="unfinished">Mirrors the selected objects along a line defined by two points.</translation>
     </message>
@@ -7052,17 +7048,17 @@ It is a list of strings; each element in the list will be displayed in its own l
     <message>
       <location filename="../../draftobjects/shapestring.py" line="67"/>
       <source>Horizontal and vertical alignment</source>
-      <translation type="unfinished">Horizontal and vertical alignment</translation>
+      <translation>Horizontale en verticale uitlijning</translation>
     </message>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="75"/>
       <source>Height reference used for justification</source>
-      <translation type="unfinished">Height reference used for justification</translation>
+      <translation>Hoogte-referentie gebruikt voor uitlijning</translation>
     </message>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="81"/>
       <source>Keep left margin and leading white space when justification is left</source>
-      <translation type="unfinished">Keep left margin and leading white space when justification is left</translation>
+      <translation>Behoud linker marge en eerste witte ruimte bij linker uitlijning</translation>
     </message>
     <message>
       <location filename="../../draftobjects/shapestring.py" line="85"/>

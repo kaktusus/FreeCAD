@@ -4887,7 +4887,7 @@ Gebäudeerstellung abgebrochen.</translation>
       <translation>Die Anzahl der Pfosten für den Bau des Zaunes</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="269"/>
+      <location filename="../../ArchFence.py" line="263"/>
       <source>When true, the fence will be colored like the original post and section.</source>
       <translation>Wenn wahr, wird der Zaun wie der ursprüngliche Pfosten und Abschnitt gefärbt.</translation>
     </message>
@@ -4973,19 +4973,19 @@ Gebäudeerstellung abgebrochen.</translation>
     <message>
       <location filename="../../ArchPrecast.py" line="98"/>
       <source>The dent length of this element</source>
-      <translation type="unfinished">The dent length of this element</translation>
+      <translation>Die Zahnlänge dieses Elements</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="100"/>
       <location filename="../../ArchPrecast.py" line="429"/>
       <source>The dent height of this element</source>
-      <translation type="unfinished">The dent height of this element</translation>
+      <translation>Die Zahnhöhe dieses Elements</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="102"/>
       <location filename="../../ArchPrecast.py" line="294"/>
       <source>The dents of this element</source>
-      <translation type="unfinished">The dents of this element</translation>
+      <translation>Die Zähne dieses Elements</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="218"/>
@@ -5020,7 +5020,7 @@ Gebäudeerstellung abgebrochen.</translation>
     <message>
       <location filename="../../ArchPrecast.py" line="427"/>
       <source>The dent width of this element</source>
-      <translation type="unfinished">The dent width of this element</translation>
+      <translation>Die Zahnbreite dieses Elements</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="536"/>
@@ -5901,12 +5901,12 @@ Gebäudeerstellung abgebrochen.</translation>
     <message>
       <location filename="../../ArchWall.py" line="769"/>
       <source>The length of each block</source>
-      <translation type="unfinished">The length of each block</translation>
+      <translation>Die Länge der einzelnen Blöcke</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="771"/>
       <source>The height of each block</source>
-      <translation type="unfinished">The height of each block</translation>
+      <translation>Die Höhe der einzelnen Blöcke</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="773"/>
@@ -5926,7 +5926,7 @@ Gebäudeerstellung abgebrochen.</translation>
     <message>
       <location filename="../../ArchWall.py" line="779"/>
       <source>The number of entire blocks</source>
-      <translation type="unfinished">The number of entire blocks</translation>
+      <translation>Die Anzahl der gesamten Blöcke</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="782"/>
@@ -6005,7 +6005,7 @@ Gebäudeerstellung abgebrochen.</translation>
     <message>
       <location filename="../../InitGui.py" line="98"/>
       <source>Panel tools</source>
-      <translation type="unfinished">Panel tools</translation>
+      <translation>Paneel-Werkzeuge</translation>
     </message>
     <message>
       <location filename="../../InitGui.py" line="106"/>
@@ -6268,12 +6268,12 @@ Gebäudeerstellung abgebrochen.</translation>
   <context>
     <name>Arch_Fence</name>
     <message>
-      <location filename="../../ArchFence.py" line="388"/>
+      <location filename="../../ArchFence.py" line="382"/>
       <source>Fence</source>
       <translation>Zaun</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="391"/>
+      <location filename="../../ArchFence.py" line="385"/>
       <source>Creates a fence object from a selected section, post and path</source>
       <translation>Erstellt ein Zaun-Objekt aus einem ausgewählten Abschnitt, Pfosten und Pfad</translation>
     </message>
@@ -6444,7 +6444,7 @@ Gebäudeerstellung abgebrochen.</translation>
       <location filename="../../ArchPanel.py" line="1577"/>
       <location filename="../../ArchPanel.py" line="1580"/>
       <source>Panel tools</source>
-      <translation type="unfinished">Panel tools</translation>
+      <translation>Paneel-Werkzeuge</translation>
     </message>
   </context>
   <context>

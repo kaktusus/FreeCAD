@@ -10,13 +10,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="180"/>
-      <source>Constraint bearing</source>
+      <source>Bearing constraint</source>
       <translation>საკისრის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="181"/>
-      <source>Creates a FEM constraint for a bearing</source>
-      <translation>საკისარისთვის FEM შეზღუდვის შექმნა</translation>
+      <source>Creates a bearing constraint</source>
+      <translation>საკისრის შეზღუდვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -24,17 +24,17 @@
     <message>
       <location filename="../../Command.cpp" line="224"/>
       <source>Fem</source>
-      <translation>სემ</translation>
+      <translation type="unfinished">Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="225"/>
-      <source>Constraint contact</source>
+      <source>Contact constraint</source>
       <translation>კონტაქტის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="226"/>
-      <source>Creates a FEM constraint for contact between faces</source>
-      <translation>ზედაპირების შეხების სემ შეზღუდვის შექმნა</translation>
+      <source>Creates a contact constraint between faces</source>
+      <translation>შექნის კონტაქტის შეზღუდვას ზედაპირებს შორის</translation>
     </message>
   </context>
   <context>
@@ -51,8 +51,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="280"/>
-      <source>Creates a FEM constraint for a displacement acting on a geometric entity</source>
-      <translation>გეომეტრიული ერთეულზე მოქმედი გადაადგილების სემ შეზღუდვის შექმნა</translation>
+      <source>Creates a displacement boundary condition for a geometric entity</source>
+      <translation>შექმნის ჩანაცვლების სასაზღვრე პირობას გეომეტრიული ობიექტისთვის</translation>
     </message>
   </context>
   <context>
@@ -69,8 +69,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="328"/>
-      <source>Creates a FEM constraint for a fixed geometric entity</source>
-      <translation>ფიქსირებული გეომეტრიული ერთეულისთვის სემ შეზღუდვის შექმნა</translation>
+      <source>Creates a fixed boundary condition for a geometric entity</source>
+      <translation>შექმნის ფიქსირებულ სასაზღვრე პირობას გეომეტრიული ობიექტისთვის</translation>
     </message>
   </context>
   <context>
@@ -105,8 +105,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="424"/>
-      <source>Creates a FEM constraint for a force acting on a geometric entity</source>
-      <translation>გეომეტრიული ერთეულზე მოქმედი ძალის სემ შეზღუდვის შექმნა</translation>
+      <source>Creates a force load applied to a geometric entity</source>
+      <translation>შექმნის ძალის დატვირთვას, რომელიც გეომეტრიულ ობიექტს აწვება</translation>
     </message>
   </context>
   <context>
@@ -118,13 +118,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="476"/>
-      <source>Constraint gear</source>
+      <source>Gear constraint</source>
       <translation>კბილანის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="477"/>
-      <source>Creates a FEM constraint for a gear</source>
-      <translation>კბილანისთვის FEM შეზღუდვის შექმნა</translation>
+      <source>Creates a gear constraint</source>
+      <translation>კბილანის შეზღუდვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -136,13 +136,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="521"/>
-      <source>Constraint heatflux</source>
-      <translation>სითბოს ნაკადის შეზღუდვა</translation>
+      <source>Heat flux load</source>
+      <translation>დატვირთვა სითბურ ნაკადზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="522"/>
-      <source>Creates a FEM constraint for a heatflux acting on a face</source>
-      <translation>ქმნის FEM შეზღუდვას ზედაპირზე მოქმედი სითბოს ნაკადისთვის</translation>
+      <source>Creates a heat flux load acting on a face</source>
+      <translation>ზედაპირზე მოქმედი სითბოს ნაკადის დატვირთვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -154,13 +154,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="575"/>
-      <source>Constraint initial temperature</source>
-      <translation>საწყისი ტემპერატურის შეზღუდვა</translation>
+      <source>Initial temperature</source>
+      <translation>საწყისი ტემპერატურა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="576"/>
-      <source>Creates a FEM constraint for initial temperature acting on a body</source>
-      <translation>სხეულზე მოქმედი საწყისი ტემპერატურების სემ შეზღუდვის შექმნა</translation>
+      <source>Creates an initial temperature acting on a body</source>
+      <translation>სხეულზე მოქმედი საწყისი ტემპერატურის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -172,13 +172,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="623"/>
-      <source>Constraint plane rotation</source>
-      <translation>სიბრტყის ტრიალის შეზღუდვა</translation>
+      <source>Plane multi-point constraint</source>
+      <translation>ზედაპირის მრავალწერტილიანი შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="624"/>
-      <source>Creates a FEM constraint for plane rotation face</source>
-      <translation>ქმნის სემ შეზღუდვას სიბრტყის ბრუნვის ზედაპირისთვის</translation>
+      <source>Creates a plane multi-point constraint for a face</source>
+      <translation>შექმნის სიბრტყის მრავალწერტილიანი შეზღუდვას ზედაპირისთვის</translation>
     </message>
   </context>
   <context>
@@ -195,8 +195,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="672"/>
-      <source>Creates a FEM constraint for a pressure acting on a face</source>
-      <translation>ქმნის ზედაპირზე მოქმედი წნევის სემ შეზღუდვას</translation>
+      <source>Creates a pressure load acting on a face</source>
+      <translation>ზედაპირზე მოქმედი წნევის დატვირთვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -208,13 +208,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="778"/>
-      <source>Constraint pulley</source>
-      <translation>შეზღუდული ბორბალი</translation>
+      <source>Pulley constraint</source>
+      <translation>ბორბლის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="779"/>
-      <source>Creates a FEM constraint for a pulley</source>
-      <translation>ბორბლისთვის FEM შეზღუდვის შექმნა</translation>
+      <source>Creates a pulley constraint</source>
+      <translation>ბორბლის შეზღუდვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -226,13 +226,13 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="725"/>
-      <source>Constraint spring</source>
-      <translation>ზამბარის შეზღუდვა</translation>
+      <source>Spring</source>
+      <translation>ზამბარა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="726"/>
-      <source>Creates a FEM constraint for a spring acting on a face</source>
-      <translation>ქმნის FEM შეზღუდვას ზედაპირზე მოქმედი ზამბარისთვის</translation>
+      <source>Creates a spring acting on a face</source>
+      <translation>ზედაპირზე მოქმედი ზამბარის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -249,8 +249,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="829"/>
-      <source>Creates a FEM constraint for a temperature/concentrated heat flux acting on a face</source>
-      <translation>სემ ზედაპირზე ტემპერატურის/სითბოს კონცენტრირებული ნაკადის მოქმედების შეზღუდვა</translation>
+      <source>Creates a temperature/concentrated heat flux load acting on a face</source>
+      <translation>შექმნის ტემპერატურის/კონცენტრირებული სითბოს ნაკადის დატვირთვას, რომელიც ზედაპირზე მოქმედებს</translation>
     </message>
   </context>
   <context>
@@ -267,8 +267,8 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="878"/>
-      <source>Create FEM constraint for transforming a face</source>
-      <translation>ზედაპირის გარდაქმნის სემ შეზღუდვის შექმნა</translation>
+      <source>Create a local coordinate system on a face</source>
+      <translation>შექმენით ლოკალური კოორდინატების სისტემა ზედაპირზე</translation>
     </message>
   </context>
   <context>
@@ -589,79 +589,79 @@
   <context>
     <name>Command</name>
     <message>
-      <location filename="../../Command.cpp" line="196"/>
-      <source>Make FEM constraint for bearing</source>
-      <translation>საკისრისთვის FEM შეზღუდვის დადება</translation>
-    </message>
-    <message>
-      <location filename="../../Command.cpp" line="241"/>
-      <source>Make FEM constraint contact on face</source>
-      <translation>ზედაპირზე შეხების სემ შეზღუდვის შექმნა</translation>
-    </message>
-    <message>
-      <location filename="../../Command.cpp" line="295"/>
-      <source>Make FEM constraint displacement on face</source>
-      <translation>ზედაპირზე სემ გადაადგილების შეზღუდვის შექმნა</translation>
-    </message>
-    <message>
-      <location filename="../../Command.cpp" line="343"/>
-      <source>Make FEM constraint fixed geometry</source>
-      <translation>ფიქსირებულ გეომეტრიაზე სემ შეზღუდვის დადება</translation>
-    </message>
-    <message>
       <location filename="../../Command.cpp" line="391"/>
       <source>Create fluid boundary condition</source>
       <translation>სითხის სასაზღვრო მდგომარეობის შექმნა</translation>
     </message>
     <message>
+      <location filename="../../Command.cpp" line="196"/>
+      <source>Make bearing constraint</source>
+      <translation>საკისრის შეზღუდვის შექმნა</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="241"/>
+      <source>Make contact constraint on a face</source>
+      <translation>შექმენით კონტაქტის შეზღუდვა ზედაპირზე</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="295"/>
+      <source>Make displacement boundary condition on face</source>
+      <translation>შექმენით გამოძევების სასაზღვრე პირობა ზედაპირზე</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="343"/>
+      <source>Make fixed boundary condition for geometry</source>
+      <translation>შექმენით ფიქსირებული სასაზღვრო პირობა გეომეტრიისთვის</translation>
+    </message>
+    <message>
       <location filename="../../Command.cpp" line="439"/>
-      <source>Make FEM constraint force on geometry</source>
-      <translation>გეომეტრიაზე ძალის სემ შეზღუდვის დადება</translation>
+      <source>Make force load on geometry</source>
+      <translation>გეომეტრიაზე ძალოვანი დატვირთვის შექმნა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="491"/>
-      <source>Make FEM constraint for gear</source>
-      <translation>კბილანაზე სემ ზღვრის დადება</translation>
+      <source>Make gear constraint</source>
+      <translation>კბილანის შეზღუდვის შექმნა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="537"/>
-      <source>Make FEM constraint heatflux on face</source>
-      <translation>ზედაპირზე სითბოს ნაკადის სემ შეზღუდვის შექმნა</translation>
+      <source>Make heat flux load on face</source>
+      <translation>ზედაპირზე სითბოს ნაკადის დატვირთვის შექმნა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="591"/>
-      <source>Make FEM constraint initial temperature on body</source>
-      <translation>ზედაპირზე საწყისი ტემპერატურის სემ შეზღუდვის შექმნა</translation>
+      <source>Make initial temperature condition on body</source>
+      <translation>შექმენით საწყისი ტემპერატურის პირობა სხეულზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="639"/>
-      <source>Make FEM constraint Plane Rotation face</source>
-      <translation>სემ სიბრტყის მოტრიალების ზედაპირის შეზღუდვის შექმნა</translation>
+      <source>Make plane multi-point constraint on face</source>
+      <translation>შექმენით სიბრტყის მრავალწერტილიანი შეზღუდვა ზედაპირზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="687"/>
-      <source>Make FEM constraint pressure on face</source>
-      <translation>ზედაპირზე წნევის სემ შეზღუდვის შექმნა</translation>
+      <source>Make pressure load on face</source>
+      <translation>წნევით დატვირთვის შექმნა ზედაპირზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="741"/>
-      <source>Make FEM constraint spring on face</source>
-      <translation>ზედაპირზე ზამბარის სემ შეზღუდვის შექმნა</translation>
+      <source>Make spring on face</source>
+      <translation>ზამბარის შექმნა ზედაპირზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="794"/>
-      <source>Make FEM constraint for pulley</source>
-      <translation>ბორბლისთვის FEM შეზღუდვის დადება</translation>
+      <source>Make pulley constraint</source>
+      <translation>ბორბლის შეზღუდვის შექმნა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="845"/>
-      <source>Make FEM constraint temperature on face</source>
-      <translation>ზედაპირზე ტემპერატურის სემ შეზღუდვის შექმნა</translation>
+      <source>Make temperature boundary condition on face</source>
+      <translation>შექმენით დროებით სასაზღვრე პირობა ზედაპირზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="893"/>
-      <source>Make FEM constraint transform on face</source>
-      <translation>ზედაპირზე წნევის სემ შეზღუდვის გარდაქმნა</translation>
+      <source>Make local coordinate system on face</source>
+      <translation>შექმენით ლოკალური კოორდინატების სისტემა ზედაპირზე</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="988"/>
@@ -1054,7 +1054,7 @@ Specify another file please.</source>
       <location filename="../../DlgSettingsFemElmer.ui" line="85"/>
       <location filename="../../DlgSettingsFemElmer.ui" line="148"/>
       <source>Search in known binary directories</source>
-      <translation>ცნობილ ბინარულ საქაღალდეებში ძებნა</translation>
+      <translation>გამშვები ფაილების ცნობილ საქაღალდეებში ძებნა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="173"/>
@@ -1129,9 +1129,9 @@ will be merged to make the volume boundaries invisible.</source>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>მითითებული გამშვები ფაილი
+      <translation>მითითებული გამშვები ფაილი 
 '%1'
-არ არ არსებობს!
+ არ არსებობს!
 მიუთითეთ სხვა ფაილი.</translation>
     </message>
     <message>
@@ -1216,11 +1216,13 @@ not belonging to faces and faces not belonging to volumes.</source>
     <message>
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="82"/>
       <source>Mesh groups are exported too.
-Every constraint and, if there are different materials, material
-consists of two mesh groups, faces and nodes where the
-constraint or material is applied.</source>
+Every analysis feature and, if there are different materials,
+material consists of two mesh groups, faces and nodes where
+the constraint or material is applied.</source>
       <translation>გაიტანება ბადის ჯგუფებიც.
-ყველა შეზღუდვა და თუ არსებობს სხვადასხვა მასალები, მასალა შედგება ორი ბადის ჯგუფისგან, ზედაპირებისგან ან უჯრედებისგან, რომელზეც შეზღუდვა ან მასალა გადატარდება.</translation>
+ყველა ანალიზის ფუნქცია და თუ არსებობს სხვადასხვა მასალები,
+მასალა შედგება ორი ბადის ჯგუფისგან, ზედაპირებისგან ან უჯრედებისგან,
+სადაც შეზღუდვა ან მასალა გადატარდება.</translation>
     </message>
   </context>
   <context>
@@ -1247,8 +1249,8 @@ constraint or material is applied.</source>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="72"/>
-      <source>Let the application manage (create, delete) the working directories for all solver. Use temporary directories.</source>
-      <translation>ნება მიეცით აპლიკაციას მართოს (შექმნას, წაშალოს) ყველა ამომხსნელის დროებითი საქაღალდეები. დროებითი საქაღალდეების გამოყენება.</translation>
+      <source>Let the application manage (create, delete) the working directories for all solvers. Use temporary directories.</source>
+      <translation type="unfinished">Let the application manage (create, delete) the working directories for all solvers. Use temporary directories.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="98"/>
@@ -1321,15 +1323,15 @@ with the last used dialog settings</source>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="354"/>
-      <source>All constraints are hidden in the model view
+      <source>All analysis features are hidden in the model view
 when the results dialog is opened</source>
       <translation>როცა შედეგების ფანჯარა იხსნება,
-მოდელის ხედში ყველა შეზღუდვა დამალულია</translation>
+მოდელის ხედში ყველა ანალიზის თვისება დამალულია</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="358"/>
-      <source>Hide constraints when open result dialog</source>
-      <translation>შედეგის ფანჯრის გახსნისას შეზღუდვების დამალვა</translation>
+      <source>Hide analysis features when open result dialog</source>
+      <translation>ანალიზის თვისებების დამალვა შედეგის დიალოგური ფანჯრის გახსნისას</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="382"/>
@@ -1579,9 +1581,9 @@ If unchecked, they will be sorted by their name.</source>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>მითითებული გამშვები ფაილი 
+      <translation>მითითებული გამშვები ფაილი
 '%1'
- არ არსებობს!
+არ არ არსებობს!
 მიუთითეთ სხვა ფაილი.</translation>
     </message>
   </context>
@@ -1600,7 +1602,7 @@ Specify another file please.</source>
     <message>
       <location filename="../../DlgSettingsFemZ88.ui" line="46"/>
       <source>Search in known binary directories</source>
-      <translation>გამშვები ფაილების ცნობილ საქაღალდეებში ძებნა</translation>
+      <translation>ცნობილ ბინარულ საქაღალდეებში ძებნა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemZ88.ui" line="77"/>
@@ -1872,7 +1874,7 @@ Specify another file please.</source>
     <message>
       <location filename="../../TaskPostBoxes.cpp" line="362"/>
       <source>Input error</source>
-      <translation type="unfinished">Input error</translation>
+      <translation>შეყვანის შეცდომა</translation>
     </message>
   </context>
   <context>
@@ -1887,8 +1889,8 @@ Specify another file please.</source>
     <name>FemGui::TaskFemConstraint</name>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="54"/>
-      <source>FEM constraint parameters</source>
-      <translation>სემ შეზღუდვის პარამეტრები</translation>
+      <source>Analysis feature parameters</source>
+      <translation>ანალიზის თვისების მორგება</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="199"/>
@@ -1966,7 +1968,7 @@ Specify another file please.</source>
       <location filename="../../TaskFemConstraintContact.cpp" line="350"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="360"/>
       <source>Selection error</source>
-      <translation>მონიშნულის შეცდომა</translation>
+      <translation>მონიშვნის შეცდომა</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintContact.cpp" line="102"/>
@@ -2043,8 +2045,8 @@ Specify another file please.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="345"/>
-      <source>Only one type of selection (vertex,face or edge) per constraint allowed!</source>
-      <translation>ნებადართულია მხოლოდ ერთი ტიპი (წვერო, ზედაპირი ან წიბო) თითო შეზღუდვაზე!</translation>
+      <source>Only one type of selection (vertex,face or edge) per analysis feature allowed!</source>
+      <translation>ერთ ანალიზის თვისებას, მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
     </message>
   </context>
   <context>
@@ -2072,8 +2074,8 @@ Specify another file please.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="151"/>
-      <source>Only one type of selection (vertex,face or edge) per constraint allowed!</source>
-      <translation>ერთ შეზღუდვას მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
+      <source>Only one type of selection (vertex, face or edge) per analysis feature allowed!</source>
+      <translation>ერთ ანალიზის თვისებას, მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
     </message>
   </context>
   <context>
@@ -2201,8 +2203,8 @@ Specify another file please.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="828"/>
-      <source>Only one type of selection (vertex,face or edge) per constraint allowed!</source>
-      <translation>ერთ შეზღუდვას მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
+      <source>Only one type of selection (vertex, face or edge) per analysis feature allowed!</source>
+      <translation>ერთ ანალიზის თვისებას, მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
     </message>
   </context>
   <context>
@@ -2230,14 +2232,14 @@ Specify another file please.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="175"/>
-      <source>Only one type of selection (vertex,face or edge) per constraint allowed!</source>
-      <translation>ნებადართულია მხოლოდ ერთი ტიპი (წვერო, ზედაპირი ან წიბო) თითო შეზღუდვაზე!</translation>
+      <source>Only one type of selection (vertex, face or edge) per analysis feature allowed!</source>
+      <translation>ერთ ანალიზის თვისებას, მხოლოდ ერთი მონიშნული ტიპი (წვერო, ზედაპირი ან წიბო) შეიძლება, ჰქონდეს!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="325"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="341"/>
       <source>Wrong selection</source>
-      <translation>არასწორი არჩევანი</translation>
+      <translation>არასწორი მონიშნული</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="325"/>
@@ -2318,8 +2320,8 @@ Specify another file please.</source>
     <message>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="116"/>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="185"/>
-      <source>Only one face can be selected for a plane rotation constraint!</source>
-      <translation>სიბრტყის მოტრიალების შეზღუდვად მხოლოდ ერთი ზედაპირი შეგიძლიათ აირჩიოთ!</translation>
+      <source>Only one face can be selected for a plane multi-point constraint!</source>
+      <translation>სიბრტყის მრავალწერტილიან შეზღუდვად მხოლოდ ერთი ზედაპირი შეგიძლიათ აირჩიოთ!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="124"/>
@@ -2442,8 +2444,8 @@ Specify another file please.</source>
     <name>FemGui::TaskFemConstraintTransform</name>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="162"/>
-      <source>Constraint update error</source>
-      <translation>შეზღუდვის განახლების შეცდომა</translation>
+      <source>Analysis feature update error</source>
+      <translation>ანალიზის თვისების განახლების შეცდომა</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="163"/>
@@ -2462,7 +2464,7 @@ Specify another file please.</source>
       <location filename="../../TaskFemConstraintTransform.cpp" line="410"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="420"/>
       <source>Selection error</source>
-      <translation>მონიშვნის შეცდომა</translation>
+      <translation>მონიშნულის შეცდომა</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="267"/>
@@ -2473,19 +2475,24 @@ Specify another file please.</source>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="273"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="280"/>
-      <source>Only one face for rectangular transform constraint!</source>
-      <translation>მართკუთხედის გარდასაქმნის შესაზღუდად აირჩიეთ მხოლოდ ერთი ზედაპირი!</translation>
+      <source>Only one face for rectangular local coordinate system!</source>
+      <translation>მხოლოდ ერთი ზედაპირი ოთხკუთხედი ლოკალური კოორდინატების სისტემისთვის!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="301"/>
+      <source>Only one face for local coordinate system!</source>
+      <translation>მხოლოდ ერთი ზედაპირი ლოკალური კოორდინატების სისტემისთვის!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="360"/>
+      <source>Only transformable faces can be selected! Apply displacement boundary condition to surface first then apply local coordinate system to surface</source>
+      <translation>შესაძლებელია მხოლოდ გარდაქმნადი ზედაპირების არჩევა! ჯერ გამოიყენეთ გადაადგილების სასაზღვრე პირობა, შემდეგ კი ზედაპირზე ლოკალური კოორდინატების სისტემა გამოიყენეთ</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="294"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="420"/>
       <source>Selected object is not a part!</source>
       <translation>მონიშნული ობიექტი ნაწილი არაა!</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintTransform.cpp" line="301"/>
-      <source>Only one face for transform constraint!</source>
-      <translation>შეზღუდვის გარდასაქმნელად აირჩიეთ მხოლოდ ერთი ზედაპირი!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="308"/>
@@ -2496,11 +2503,6 @@ Specify another file please.</source>
       <location filename="../../TaskFemConstraintTransform.cpp" line="319"/>
       <source>Only cylindrical faces can be picked</source>
       <translation>შეგიძლიათ აირჩიოთ მხოლოდ ცილინდრული ზედაპირები</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintTransform.cpp" line="360"/>
-      <source>Only transformable faces can be selected! Apply displacement constraint to surface first then apply constraint to surface</source>
-      <translation>შესაძლებელია მხოლოდ გარდაქნადი ზედაპირების არჩევა! ჯერ გამოიყენეთ გადაადგილების შეზღუდვა, შემდეგ კი გამოიყენეთ ზედაპირზე შეზღუდვა</translation>
     </message>
   </context>
   <context>
@@ -2812,11 +2814,6 @@ Specify another file please.</source>
   <context>
     <name>Form</name>
     <message>
-      <location filename="../ui/ElementFluid1D.ui" line="14"/>
-      <source>Form</source>
-      <translation>ფორმა</translation>
-    </message>
-    <message>
       <location filename="../ui/ElementFluid1D.ui" line="26"/>
       <source>Fluid Section Parameter</source>
       <translation>სითხის სექციის პარამეტრი</translation>
@@ -3065,8 +3062,8 @@ Specify another file please.</source>
       <location filename="../ui/InitialFlowVelocity.ui" line="14"/>
       <location filename="../ui/InitialPressure.ui" line="14"/>
       <location filename="../ui/Magnetization.ui" line="14"/>
-      <source>Constraint Properties</source>
-      <translation>შეზღუდვის თვისებები</translation>
+      <source>Analysis feature properties</source>
+      <translation>ანალიზის თვისების მორგება</translation>
     </message>
     <message>
       <location filename="../ui/BodyHeatSource.ui" line="20"/>
@@ -3130,6 +3127,21 @@ Specify another file please.</source>
 with a harmonic/oscillating driving force</source>
       <translation>წარმოდგენითი ნაწილი მხოლოდ ჰარმონიული/რხევადი 
 მამოძრავებელი ძალის მქონე ტოლობებთან ერთად გამოიყენება</translation>
+    </message>
+    <message>
+      <location filename="../ui/ElectrostaticPotential.ui" line="531"/>
+      <source>Whether the boundary condition defines a constant potential</source>
+      <translation>განსაზღვრავს თუ არა სასაზღვრე პირობა მუდმივ პოტენციალს</translation>
+    </message>
+    <message>
+      <location filename="../ui/ElectrostaticPotential.ui" line="544"/>
+      <source>Whether the boundary condition defines a farfield potential</source>
+      <translation>განსაზღვრავს თუ არა სასაზღვრე პირობა შორი ველის პოტენციალს</translation>
+    </message>
+    <message>
+      <location filename="../ui/ElectrostaticPotential.ui" line="554"/>
+      <source>Whether the boundary condition is for the electric force</source>
+      <translation>არის თუ არა სასაზღვრე პირობა ელექტრული ძალისთვის</translation>
     </message>
     <message>
       <location filename="../ui/CurrentDensity.ui" line="30"/>
@@ -3224,29 +3236,14 @@ Note: has no effect if a solid was selected</source>
 შენიშვნა: ეფექტი არ გააჩნია, თუ მონიშნული მყარია</translation>
     </message>
     <message>
-      <location filename="../ui/ElectrostaticPotential.ui" line="531"/>
-      <source>Whether the constraint defines a constant potential</source>
-      <translation>განსაზღვრავს თუ არა შეზღუდვა მუდმივ პოტენციალს</translation>
-    </message>
-    <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="534"/>
       <source>Potential Constant</source>
       <translation>პოტენციალის კონსტანტა</translation>
     </message>
     <message>
-      <location filename="../ui/ElectrostaticPotential.ui" line="544"/>
-      <source>Whether the constraint defines a farfield potential</source>
-      <translation>განსაზღვრავს თუ არა შეზღუდვა შორი ველის პოტენციალს</translation>
-    </message>
-    <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="547"/>
       <source>Farfield / Electric infinity</source>
       <translation>შორი ველი / ელექტრო უსასრულობა</translation>
-    </message>
-    <message>
-      <location filename="../ui/ElectrostaticPotential.ui" line="554"/>
-      <source>Whether the constraint is for the electric force</source>
-      <translation>არის თუ არა შეზღუდვა ელექტრული ძალისთვის</translation>
     </message>
     <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="557"/>
@@ -3597,11 +3594,6 @@ Note: for 2D only setting for x is possible,
       <translation>გაუქმება</translation>
     </message>
     <message>
-      <location filename="../../ViewProviderFemConstraint.cpp" line="139"/>
-      <source>Edit constraint</source>
-      <translation>ზღვრის ჩასწორება</translation>
-    </message>
-    <message>
       <location filename="../../ViewProviderFemConstraintBearing.cpp" line="69"/>
       <location filename="../../ViewProviderFemConstraintFixed.cpp" line="69"/>
       <location filename="../../ViewProviderFemConstraintFluidBoundary.cpp" line="70"/>
@@ -3631,11 +3623,6 @@ Note: for 2D only setting for x is possible,
       <translation>ბადის აგება</translation>
     </message>
     <message>
-      <location filename="../../TaskFemConstraintForce.cpp" line="437"/>
-      <source>Constraint force</source>
-      <translation>ძალის ზღვარი</translation>
-    </message>
-    <message>
       <location filename="../../AppFemGui.cpp" line="173"/>
       <location filename="../../AppFemGui.cpp" line="174"/>
       <location filename="../../AppFemGui.cpp" line="175"/>
@@ -3653,44 +3640,9 @@ Note: for 2D only setting for x is possible,
       <translation>შეტანა-გატანა</translation>
     </message>
     <message>
-      <location filename="../../TaskFemConstraintContact.cpp" line="457"/>
-      <source>Constraint Contact</source>
-      <translation>კონტაქტის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintDisplacement.cpp" line="612"/>
-      <source>Constraint displacement</source>
-      <translation>გადაადგილების შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintFixed.cpp" line="278"/>
-      <source>Constraint fixed</source>
-      <translation>დამაგრებულის ზღვარი</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="960"/>
-      <source>Constraint fluid boundary</source>
-      <translation>სითხის საზღვრის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintHeatflux.cpp" line="424"/>
-      <source>Constraint heat flux</source>
-      <translation>სითბოს ნაკადის შეზღუდვა</translation>
-    </message>
-    <message>
       <location filename="../../TaskFemConstraintInitialTemperature.cpp" line="98"/>
       <source>Constraint initial temperature</source>
       <translation>საწყისი ტემპერატურის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="296"/>
-      <source>Constraint planerotation</source>
-      <translation>სიბრტყის ტრიალის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintPressure.cpp" line="295"/>
-      <source>Constraint pressure</source>
-      <translation>წნევის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPulley.cpp" line="186"/>
@@ -3701,16 +3653,6 @@ Note: for 2D only setting for x is possible,
       <location filename="../../TaskFemConstraintSpring.cpp" line="304"/>
       <source>Constraint spring</source>
       <translation>ზამბარის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintTemperature.cpp" line="333"/>
-      <source>Constraint temperature</source>
-      <translation>ტემპერატურის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../TaskFemConstraintTransform.cpp" line="563"/>
-      <source>Constraint transform</source>
-      <translation>გარდაქნის შეზღუდვა</translation>
     </message>
     <message>
       <location filename="../../TaskPostBoxes.cpp" line="344"/>
@@ -3756,6 +3698,61 @@ Note: for 2D only setting for x is possible,
       <location filename="../../ViewProviderAnalysis.cpp" line="308"/>
       <source>Are you sure you want to continue?</source>
       <translation>დარწმუნებული ბრძანდებით, რომ გნებავთ, გააგრძელოთ?</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="457"/>
+      <source>Contact constraint</source>
+      <translation>კონტაქტის შეზღუდვა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="612"/>
+      <source>Displacement boundary condition</source>
+      <translation>ჩანაცვლების საზღვრის პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFixed.cpp" line="278"/>
+      <source>Fixed boundary condition</source>
+      <translation>დამაგრებული სასაზღვრო პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="960"/>
+      <source>Fluid boundary condition</source>
+      <translation>სითხის სასაზღვრო მდგომარეობა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="437"/>
+      <source>Force load</source>
+      <translation>ძალოვანი დატვირთვა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="424"/>
+      <source>Heat flux load</source>
+      <translation>დატვირთვა სითბურ ნაკადზე</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="296"/>
+      <source>Plane multi-point constraint</source>
+      <translation>ზედაპირის მრავალწერტილიანი შეზღუდვა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="295"/>
+      <source>Pressure load</source>
+      <translation>წნევით დატვირთვა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="333"/>
+      <source>Temperature boundary condition</source>
+      <translation>ტემპერატურის შემზღუდავი პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="563"/>
+      <source>Local coordinate system</source>
+      <translation>ლოკალური კოორდინატების სისტემა</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderFemConstraint.cpp" line="139"/>
+      <source>Edit analysis feature</source>
+      <translation>ანალიზის თვისების ჩასწორება</translation>
     </message>
   </context>
   <context>
@@ -4105,8 +4102,8 @@ For possible variables, see the description box below.</source>
     </message>
     <message>
       <location filename="../../TaskAnalysisInfo.ui" line="48"/>
-      <source>Constraints</source>
-      <translation>შეზღუდვები</translation>
+      <source>Analysis features</source>
+      <translation>ანალიზის თვისებები</translation>
     </message>
   </context>
   <context>
@@ -4134,7 +4131,7 @@ For possible variables, see the description box below.</source>
     <message>
       <location filename="../../TaskCreateNodeSet.ui" line="70"/>
       <source>Box</source>
-      <translation type="unfinished">Box</translation>
+      <translation>ყუთი</translation>
     </message>
     <message>
       <location filename="../../TaskCreateNodeSet.ui" line="80"/>
@@ -4598,8 +4595,8 @@ normal vector of the face is used as direction</source>
     <name>TaskFemConstraintHeatflux</name>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="14"/>
-      <source>TaskFemConstraintHeatflux</source>
-      <translation>TaskFemConstraintHeatflux</translation>
+      <source>Task Fem Heat flux Load</source>
+      <translation>სემ-ის ამოცანა - სითბური ნაკადით დატვირთვა</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="20"/>
@@ -5242,128 +5239,126 @@ used for the Elmer solver</source>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="49"/>
-      <source>Electrostatic Constraints</source>
-      <translation>ელექტროსტატიკური შეზღუდვები</translation>
+      <source>Electrostatic boundary conditions</source>
+      <translation>ელექტროსტატიკური სასაზღვრო პირობები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="50"/>
-      <source>&amp;Electrostatic Constraints</source>
-      <translation>&amp;ელექტროსტატიკური შეზღუდვები</translation>
-    </message>
-    <message>
-      <location filename="../../Workbench.cpp" line="53"/>
-      <source>Fluid Constraints</source>
-      <translation>სითხის შეზღუდვები</translation>
-    </message>
-    <message>
-      <location filename="../../Workbench.cpp" line="54"/>
-      <source>&amp;Fluid Constraints</source>
-      <translation>&amp;სითხის შეზღუდვები</translation>
+      <source>&amp;Electrostatic boundary conditions</source>
+      <translation>&amp;ელექტროსტატიკური სასაზღვრო პირობები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="51"/>
-      <location filename="../../Workbench.cpp" line="55"/>
-      <source>Electromagnetic Constraints</source>
-      <translation>ელექტრომაგნიტური შეზღუდვები</translation>
+      <source>Fluid boundary conditions</source>
+      <translation>სითხის სასაზღვრო პირობები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="52"/>
+      <source>&amp;Fluid boundary conditions</source>
+      <translation>&amp;სითხის სასაზღვრო პირობები</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="53"/>
+      <source>Electromagnetic boundary conditions</source>
+      <translation>ელექტრომაგნიტური სასაზღვრო პირობები</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="54"/>
+      <source>&amp;Electromagnetic boundary conditions</source>
+      <translation>&amp;ელექტრომაგნიტური სასაზღვრო პირობები</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="55"/>
+      <source>Geometrical analysis features</source>
+      <translation>გეომეტრიული ანალიზის ფუნქციები</translation>
+    </message>
+    <message>
       <location filename="../../Workbench.cpp" line="56"/>
-      <source>&amp;Electromagnetic Constraints</source>
-      <translation>&amp;ელექტრომაგნიტური შეზღუდვები</translation>
+      <source>&amp;Geometrical analysis features</source>
+      <translation>&amp;გეომეტრიული ანალიზის ფუნქციები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="57"/>
-      <source>Geometrical Constraints</source>
-      <translation>გეომეტრიული შეზღუდვები</translation>
+      <source>Mechanical boundary conditions and loads</source>
+      <translation>მექანიკური სასაზღვრო პირობები და დატვირთვები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="58"/>
-      <source>&amp;Geometrical Constraints</source>
-      <translation>&amp;გეომეტრიული შეზღუდვები</translation>
+      <source>&amp;Mechanical boundary conditions and loads</source>
+      <translation>&amp;მექანიკური სასაზღვრო პირობები და დატვირთვები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="59"/>
-      <source>Mechanical Constraints</source>
-      <translation>მექანიკური შეზღუდვები</translation>
+      <source>Thermal boundary conditions and loads</source>
+      <translation>თერმული სასაზღვრო პირობები და დატვირთვები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="60"/>
-      <source>&amp;Mechanical Constraints</source>
-      <translation>&amp;მექანიკური შეზღუდვები</translation>
+      <source>&amp;Thermal boundary conditions and loads</source>
+      <translation>&amp;თერმული სასაზღვრო პირობები და დატვირთვები</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="61"/>
-      <source>Thermal Constraints</source>
-      <translation>თერმული შეზღუდვები</translation>
+      <source>Analysis features without solver</source>
+      <translation>ანალიზის თვისებები ამომხსნელის გარეშე</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="62"/>
-      <source>&amp;Thermal Constraints</source>
-      <translation>&amp;თერმული შეზღუდვები</translation>
+      <source>&amp;Analysis features without solver</source>
+      <translation>&amp;ანალიზის თვისებები ამომხსნელის გარეშე</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="63"/>
-      <source>Constraints without solver</source>
-      <translation>შეზღუდვები ამომხსნელის გარეშე</translation>
-    </message>
-    <message>
-      <location filename="../../Workbench.cpp" line="64"/>
-      <source>&amp;Constraints without solver</source>
-      <translation>&amp;შეზღუდვები ამომხსნელის გარეშე</translation>
-    </message>
-    <message>
-      <location filename="../../Workbench.cpp" line="65"/>
       <source>Overwrite Constants</source>
       <translation>კონსტანტებზე გადაწერა</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="66"/>
+      <location filename="../../Workbench.cpp" line="64"/>
       <source>&amp;Overwrite Constants</source>
       <translation>&amp;კონსტანტებზე გადაწერა</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="68"/>
+      <location filename="../../Workbench.cpp" line="66"/>
       <source>Mesh</source>
-      <translation type="unfinished">Mesh</translation>
+      <translation>ბადე</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="69"/>
+      <location filename="../../Workbench.cpp" line="67"/>
       <source>M&amp;esh</source>
       <translation>&amp;ბადე</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="71"/>
+      <location filename="../../Workbench.cpp" line="69"/>
       <source>Solve</source>
       <translation>ამოხსნა</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="72"/>
+      <location filename="../../Workbench.cpp" line="70"/>
       <source>&amp;Solve</source>
       <translation>&amp;გადაწყვეტა</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="74"/>
+      <location filename="../../Workbench.cpp" line="72"/>
       <source>Results</source>
       <translation>შედეგები</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="75"/>
+      <location filename="../../Workbench.cpp" line="73"/>
       <source>&amp;Results</source>
       <translation>&amp;შედეგები</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="76"/>
+      <location filename="../../Workbench.cpp" line="74"/>
       <source>Filter functions</source>
       <translation>ფილტრის ფუნქციები</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="77"/>
+      <location filename="../../Workbench.cpp" line="75"/>
       <source>&amp;Filter functions</source>
       <translation>&amp;ფილტრის ფუნქციები</translation>
     </message>
     <message>
-      <location filename="../../Workbench.cpp" line="79"/>
+      <location filename="../../Workbench.cpp" line="77"/>
       <source>Utilities</source>
       <translation>ხელსაწყოები</translation>
     </message>
@@ -5419,9 +5414,13 @@ used for the Elmer solver</source>
     <name>FEM_ClippingPlaneRemoveAll</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="153"/>
-      <location filename="../../../femcommands/commands.py" line="157"/>
       <source>Remove all clipping planes</source>
       <translation>კვეთის ყველა სიბრტყის მოცილება</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="157"/>
+      <source>Removes all clipping planes</source>
+      <translation>ყველა წაკვეთის სიბრტყის წაშლა</translation>
     </message>
   </context>
   <context>
@@ -5435,123 +5434,6 @@ used for the Elmer solver</source>
       <location filename="../../../femcommands/commands.py" line="183"/>
       <source>Creates a FEM constant vacuum permittivity to overwrite standard value</source>
       <translation>სემ ვაკუუმის გამტარობის კონსტანტის შექმნა სტანდარტულ მნიშვნელობაზე გადასაწერად</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintBodyHeatSource</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="198"/>
-      <source>Constraint body heat source</source>
-      <translation>სხეულის სითბოს წყაროს შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="202"/>
-      <source>Creates a FEM constraint body heat source</source>
-      <translation>სხეულის სითბოს წყაროს FEM შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintCentrif</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="215"/>
-      <source>Constraint centrif</source>
-      <translation>ცენტრიფუგის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="219"/>
-      <source>Creates a FEM constraint centrif</source>
-      <translation>ცენტრიფუგის სემ შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintElectrostaticPotential</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="250"/>
-      <source>Constraint electrostatic potential</source>
-      <translation>ელექტროსტატიკური პოტენციალის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="254"/>
-      <source>Creates a FEM constraint electrostatic potential</source>
-      <translation>სემ ელექტროსტატიკური პოტენციალის შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintFlowVelocity</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="267"/>
-      <source>Constraint flow velocity</source>
-      <translation>დინების სიჩქარის ზღვარი</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="271"/>
-      <source>Creates a FEM constraint flow velocity</source>
-      <translation>ქმნის სემ დინების სიჩქარის შეზღუდვას</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintInitialFlowVelocity</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="284"/>
-      <source>Constraint initial flow velocity</source>
-      <translation>დინების საწყისი სიჩქარის ზღვარი</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="288"/>
-      <source>Creates a FEM constraint initial flow velocity</source>
-      <translation>ქმნის სემ დინების საწყისი სიჩქარის შეზღუდვას</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintInitialPressure</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="301"/>
-      <source>Constraint initial pressure</source>
-      <translation>საწყისი წნევის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="305"/>
-      <source>Creates a FEM constraint initial pressure</source>
-      <translation>ქმნის სემ საწყისი წნევის შეზღუდვას</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintSectionPrint</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="335"/>
-      <source>Constraint sectionprint</source>
-      <translation>განივი კვეთის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="339"/>
-      <source>Creates a FEM constraint sectionprint</source>
-      <translation>სემ განივი კვეთის შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintSelfWeight</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="352"/>
-      <source>Constraint self weight</source>
-      <translation>საკუთარი წონის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="356"/>
-      <source>Creates a FEM constraint self weight</source>
-      <translation>საკუთარი წონის სემ შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintTie</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="369"/>
-      <source>Constraint tie</source>
-      <translation>კავშირის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="373"/>
-      <source>Creates a FEM constraint tie</source>
-      <translation>სემ კავშირის შეზღუდვის შექმნა</translation>
     </message>
   </context>
   <context>
@@ -5690,8 +5572,12 @@ used for the Elmer solver</source>
     <name>FEM_Examples</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="608"/>
-      <location filename="../../../femcommands/commands.py" line="612"/>
       <source>Open FEM examples</source>
+      <translation>სემ მაგალითების გახსნა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="612"/>
+      <source>Opens the FEM examples</source>
       <translation>სემ მაგალითების გახსნა</translation>
     </message>
   </context>
@@ -5769,8 +5655,8 @@ used for the Elmer solver</source>
     </message>
     <message>
       <location filename="../../../femcommands/commands.py" line="776"/>
-      <source>Convert the surface of a FEM mesh to a mesh</source>
-      <translation>სემ ბადის ზედაპირის ბადედ გარდაქმნა</translation>
+      <source>Converts the surface of a FEM mesh to a mesh</source>
+      <translation>გადაიყვანს სემ ბადის ზედაპირს ბადედ</translation>
     </message>
   </context>
   <context>
@@ -5795,7 +5681,7 @@ used for the Elmer solver</source>
     </message>
     <message>
       <location filename="../../../femcommands/commands.py" line="841"/>
-      <source>Clear the Mesh of a FEM mesh object</source>
+      <source>Clears the Mesh of a FEM mesh object</source>
       <translation>ბადის ან სემ ბადის ობიექტის გასუფთავება</translation>
     </message>
   </context>
@@ -5803,8 +5689,12 @@ used for the Elmer solver</source>
     <name>FEM_MeshDisplayInfo</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="863"/>
-      <location filename="../../../femcommands/commands.py" line="867"/>
       <source>Display FEM mesh info</source>
+      <translation>სემ ბადის ინფორმაციის ჩვენება</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="867"/>
+      <source>Displays FEM mesh information</source>
       <translation>სემ ბადის ინფორმაციის ჩვენება</translation>
     </message>
   </context>
@@ -5817,7 +5707,7 @@ used for the Elmer solver</source>
     </message>
     <message>
       <location filename="../../../femcommands/commands.py" line="897"/>
-      <source>Create a FEM mesh from a shape by Gmsh mesher</source>
+      <source>Creates a FEM mesh from a shape by Gmsh mesher</source>
       <translation>მოხაზულობიდან Gmsh-ის მეშვეობით სემ ბადის შექმნა</translation>
     </message>
   </context>
@@ -5843,8 +5733,8 @@ used for the Elmer solver</source>
     </message>
     <message>
       <location filename="../../../femcommands/commands.py" line="960"/>
-      <source>Create a FEM mesh from a solid or face shape by Netgen internal mesher</source>
-      <translation>სემ ბადის მყარი სხეულისაგან ან ზედაპირის მოხაზულობისგან Netgen შიდა მეშერით შექმნა</translation>
+      <source>Creates a FEM mesh from a solid or face shape by Netgen internal mesher</source>
+      <translation>შექმნის სემ ბადის მყარი სხეულისაგან ან ზედაპირის მოხაზულობისგან Netgen შიდა მეშერით</translation>
     </message>
   </context>
   <context>
@@ -6028,7 +5918,7 @@ used for the Elmer solver</source>
     <message>
       <location filename="../../../femguiutils/selection_widgets.py" line="51"/>
       <source>Remove</source>
-      <translation>მოცილება</translation>
+      <translation>წაშლა</translation>
     </message>
   </context>
   <context>
@@ -6187,19 +6077,6 @@ Please select a result type first.</source>
     </message>
   </context>
   <context>
-    <name>FEM_ConstraintCurrentDensity</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="233"/>
-      <source>Constraint current density</source>
-      <translation>მიმდინარე სიმკვრივის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="237"/>
-      <source>Creates a FEM constraint current density</source>
-      <translation>მიმდინარე სემ სიმკვრივის შეზღუდვის შექმნა</translation>
-    </message>
-  </context>
-  <context>
     <name>FEM_EquationMagnetodynamic2D</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="590"/>
@@ -6224,21 +6101,8 @@ Please select a result type first.</source>
     <message>
       <location filename="../../Command.cpp" line="1139"/>
       <location filename="../../Command.cpp" line="1140"/>
-      <source>Electromagnetic constraints</source>
-      <translation>ელექტრომაგნიტური შეზღუდვები</translation>
-    </message>
-  </context>
-  <context>
-    <name>FEM_ConstraintMagnetization</name>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="318"/>
-      <source>Constraint magnetization</source>
-      <translation>მაგნეტიზაციის შეზღუდვა</translation>
-    </message>
-    <message>
-      <location filename="../../../femcommands/commands.py" line="322"/>
-      <source>Creates a FEM constraint magnetization</source>
-      <translation>მაგნეტიზაციის სემ შეზღუდვის შექმნა</translation>
+      <source>Electromagnetic boundary conditions</source>
+      <translation>ელექტრომაგნიტური სასაზღვრო პირობები</translation>
     </message>
   </context>
   <context>
@@ -6341,11 +6205,6 @@ Please select a result type first.</source>
   <context>
     <name>BoxWidget</name>
     <message>
-      <location filename="../../BoxWidget.ui" line="14"/>
-      <source>Form</source>
-      <translation>ფორმა</translation>
-    </message>
-    <message>
       <location filename="../../BoxWidget.ui" line="22"/>
       <source>x</source>
       <translation>x</translation>
@@ -6384,11 +6243,6 @@ Please select a result type first.</source>
   <context>
     <name>CylinderWidget</name>
     <message>
-      <location filename="../../CylinderWidget.ui" line="14"/>
-      <source>Form</source>
-      <translation>ფორმა</translation>
-    </message>
-    <message>
       <location filename="../../CylinderWidget.ui" line="22"/>
       <source>x</source>
       <translation>x</translation>
@@ -6424,7 +6278,7 @@ Please select a result type first.</source>
     <message>
       <location filename="../../Command.cpp" line="1400"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>სემ</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1401"/>
@@ -6448,6 +6302,149 @@ Please select a result type first.</source>
       <location filename="../../../femcommands/commands.py" line="1109"/>
       <source>Creates a FEM solver CalculiX new framework (less result error handling)</source>
       <translation>სემ ამომხსნელის CalculiX ახალი Framework-ით შექმნა (ნაკლები შედეგის შეცდომები)</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintBodyHeatSource</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="198"/>
+      <source>Body heat source</source>
+      <translation>სხეულის სითბოს წყარო</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="202"/>
+      <source>Creates a body heat source</source>
+      <translation>სხეულის სითბოს წყაროს შექმნა</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintCentrif</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="215"/>
+      <source>Centrifugal load</source>
+      <translation>ცენტრიფუგული დატვირთვა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="219"/>
+      <source>Creates a centrifugal load</source>
+      <translation>ცენტრიფუგული დატვირთვს შექმნა</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintCurrentDensity</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="233"/>
+      <source>Current density boundary condition</source>
+      <translation>დინების სიმკვრივის სასაზღვრო პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="237"/>
+      <source>Creates a current density boundary condition</source>
+      <translation>შექმნის დინების სიმკვრივის სასაზღვრო პირობას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintElectrostaticPotential</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="250"/>
+      <source>Electrostatic potential boundary condition</source>
+      <translation>ელექტროსტატიკური პოტენციალის სასაზღვრო პირობები</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="254"/>
+      <source>Creates an electrostatic potential boundary condition</source>
+      <translation>ქმნის ელექტროსტატიკური პოტენციალის სასაზღვრო პირობებს</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintFlowVelocity</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="267"/>
+      <source>Flow velocity boundary condition</source>
+      <translation>დინების სიჩქარის საზღვრის პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="271"/>
+      <source>Creates a flow velocity boundary condition</source>
+      <translation>შექმნის დინების სიჩქარის საზღვრის პირობას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintInitialFlowVelocity</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="284"/>
+      <source>Initial flow velocity condition</source>
+      <translation>საწყისი დინების სიჩქარის პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="288"/>
+      <source>Creates initial flow velocity condition</source>
+      <translation>ქმნის საწყისი დინების სიჩქარის პირობას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintInitialPressure</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="301"/>
+      <source>Initial pressure condition</source>
+      <translation>საწყისი წნევის პირობა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="305"/>
+      <source>Creates an initial pressure condition</source>
+      <translation>ქმნის საწყის წნევის პირობას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintMagnetization</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="318"/>
+      <source>Magnetization boundary condition</source>
+      <translation>დამაგნიტების საზღვრის პირობები</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="322"/>
+      <source>Creates a magnetization boundary condition</source>
+      <translation>შექმნის დამაგნიტების საზღვრის პირობას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintSectionPrint</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="335"/>
+      <source>Section print feature</source>
+      <translation>დანაყოფის ბეჭდვის ფუნქცია</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="339"/>
+      <source>Creates a section print feature</source>
+      <translation>სექციის ბეჭდვის ფუნქციის შექმნა</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintSelfWeight</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="352"/>
+      <source>Gravity load</source>
+      <translation>გრავიტაციული დატვირთვა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="356"/>
+      <source>Creates a gravity load</source>
+      <translation>შექმნის გრავიტაციის დატვირთვას</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintTie</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="369"/>
+      <source>Tie constraint</source>
+      <translation>გადაბმის შეზღუდვა</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="373"/>
+      <source>Creates a tie constraint</source>
+      <translation>სემ შეზღუდვის შექმნა</translation>
     </message>
   </context>
 </TS>

@@ -2015,7 +2015,7 @@
     </message>
     <message>
         <location filename="../../Command.cpp" line="1636"/>
-        <location filename="../../MDIViewPage.cpp" line="734"/>
+        <location filename="../../PagePrinter.cpp" line="357"/>
         <source>Save page to dxf</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2071,7 +2071,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QGIViewDimension.cpp" line="688"/>
+        <location filename="../../QGIViewDimension.cpp" line="686"/>
         <source>Drag Dimension</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2141,8 +2141,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../TaskComplexSection.cpp" line="643"/>
-        <location filename="../../TaskSectionView.cpp" line="569"/>
+        <location filename="../../TaskComplexSection.cpp" line="644"/>
+        <location filename="../../TaskSectionView.cpp" line="577"/>
         <source>Edit SectionView</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2928,7 +2928,7 @@
         <location filename="../../CommandCreateDims.cpp" line="1218"/>
         <location filename="../../CommandDecorate.cpp" line="371"/>
         <location filename="../../CommandDecorate.cpp" line="377"/>
-        <location filename="../../TaskDimension.cpp" line="400"/>
+        <location filename="../../TaskDimension.cpp" line="417"/>
         <location filename="../../TaskDimRepair.cpp" line="126"/>
         <location filename="../../TaskDimRepair.cpp" line="138"/>
         <location filename="../../TaskDimRepair.cpp" line="149"/>
@@ -3370,33 +3370,33 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="282"/>
+        <location filename="../../MDIViewPage.cpp" line="307"/>
         <source>PDF (*.pdf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="283"/>
-        <location filename="../../MDIViewPage.cpp" line="693"/>
+        <location filename="../../MDIViewPage.cpp" line="308"/>
+        <location filename="../../MDIViewPage.cpp" line="493"/>
         <source>All Files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="285"/>
+        <location filename="../../MDIViewPage.cpp" line="310"/>
         <source>Export Page As PDF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="584"/>
+        <location filename="../../PagePrinter.cpp" line="270"/>
         <source>Document Name: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="692"/>
+        <location filename="../../MDIViewPage.cpp" line="492"/>
         <source>SVG (*.svg)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="695"/>
+        <location filename="../../MDIViewPage.cpp" line="495"/>
         <source>Export page as SVG</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3522,8 +3522,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../TaskComplexSection.cpp" line="692"/>
-        <location filename="../../TaskSectionView.cpp" line="618"/>
+        <location filename="../../TaskComplexSection.cpp" line="704"/>
+        <location filename="../../TaskSectionView.cpp" line="638"/>
         <source>Operation Failed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3723,7 +3723,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../TaskDimension.cpp" line="401"/>
+        <location filename="../../TaskDimension.cpp" line="418"/>
         <source>Select 2 Vertexes or 1 Edge</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3826,7 +3826,7 @@ it has a weld symbol that would become broken.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ViewProviderViewPart.cpp" line="319"/>
+        <location filename="../../ViewProviderViewPart.cpp" line="331"/>
         <source>You cannot delete this view because it has one or more dependent views that would become broken.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3840,7 +3840,7 @@ it has a weld symbol that would become broken.</source>
         <location filename="../../ViewProviderProjGroupItem.cpp" line="165"/>
         <location filename="../../ViewProviderProjGroupItem.cpp" line="173"/>
         <location filename="../../ViewProviderTemplate.cpp" line="205"/>
-        <location filename="../../ViewProviderViewPart.cpp" line="322"/>
+        <location filename="../../ViewProviderViewPart.cpp" line="334"/>
         <location filename="../../ViewProviderWeld.cpp" line="145"/>
         <source>Object dependencies</source>
         <translation type="unfinished"></translation>
@@ -5521,49 +5521,59 @@ Fast, but result is a collection of short straight lines.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="395"/>
+        <location filename="../../MDIViewPage.cpp" line="401"/>
         <source>Different orientation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="396"/>
+        <location filename="../../MDIViewPage.cpp" line="402"/>
         <source>The printer uses a different orientation  than the drawing.
 Do you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="405"/>
+        <location filename="../../MDIViewPage.cpp" line="411"/>
         <source>Different paper size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="406"/>
+        <location filename="../../MDIViewPage.cpp" line="412"/>
         <source>The printer uses a different paper size than the drawing.
 Do you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="419"/>
+        <location filename="../../MDIViewPage.cpp" line="426"/>
         <source>Opening file failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="420"/>
+        <location filename="../../MDIViewPage.cpp" line="427"/>
         <source>Can not open file %1 for writing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="719"/>
+        <location filename="../../MDIViewPage.cpp" line="516"/>
         <source>Save DXF file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="720"/>
+        <location filename="../../MDIViewPage.cpp" line="517"/>
         <source>DXF (*.dxf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../MDIViewPage.cpp" line="1228"/>
+        <location filename="../../MDIViewPage.cpp" line="537"/>
+        <source>Save PDF file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../MDIViewPage.cpp" line="538"/>
+        <source>PDF (*.pdf)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../MDIViewPage.cpp" line="1029"/>
         <source>Selected:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6046,11 +6056,12 @@ Do you want to continue?</source>
     </message>
     <message>
         <location filename="../../TaskComplexSection.cpp" line="559"/>
+        <location filename="../../TaskComplexSection.cpp" line="692"/>
         <source>ComplexSection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../TaskComplexSection.cpp" line="691"/>
+        <location filename="../../TaskComplexSection.cpp" line="703"/>
         <source>Can not continue. Object * %1 or %2 not found.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7811,7 +7822,7 @@ using the given X/Y Spacing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../TaskSectionView.cpp" line="617"/>
+        <location filename="../../TaskSectionView.cpp" line="637"/>
         <source>Can not continue. Object * %1 or %2 not found.</source>
         <translation type="unfinished"></translation>
     </message>

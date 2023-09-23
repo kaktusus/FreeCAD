@@ -1346,12 +1346,22 @@
       <translation>Exportovat soubory AMF za použití komprese</translation>
     </message>
     <message>
-      <location filename="../../DlgSettingsImportExport.ui" line="95"/>
+      <location filename="../../DlgSettingsImportExport.ui" line="82"/>
+      <source>Always export mesh as model type in 3MF format even if not a solid</source>
+      <translation type="unfinished">Always export mesh as model type in 3MF format even if not a solid</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsImportExport.ui" line="85"/>
+      <source>Export 3MF files as model type</source>
+      <translation type="unfinished">Export 3MF files as model type</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsImportExport.ui" line="114"/>
       <source>Width:</source>
       <translation>Šířka:</translation>
     </message>
     <message>
-      <location filename="../../DlgSettingsImportExport.ui" line="119"/>
+      <location filename="../../DlgSettingsImportExport.ui" line="138"/>
       <source>Height:</source>
       <translation>Výška:</translation>
     </message>
@@ -2323,7 +2333,7 @@ Prosím navštivte http://www.openscad.org/index.html a nainstalujte ho.</transl
     <message>
       <location filename="../../ViewProviderCurvature.cpp" line="492"/>
       <source>Annotation</source>
-      <translation>Vysvětlivka</translation>
+      <translation>Poznámka</translation>
     </message>
   </context>
   <context>

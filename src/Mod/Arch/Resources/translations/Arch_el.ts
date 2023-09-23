@@ -2044,7 +2044,7 @@ unit to work with when opening the file.</translation>
     <message>
       <location filename="../../ArchBuildingPart.py" line="206"/>
       <source>BuildingPart</source>
-      <translation type="unfinished">BuildingPart</translation>
+      <translation>Μέρος Κτιρίου</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="221"/>
@@ -4918,7 +4918,7 @@ Building creation aborted.</translation>
       <translation type="unfinished">The number of posts used to build the fence</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="269"/>
+      <location filename="../../ArchFence.py" line="263"/>
       <source>When true, the fence will be colored like the original post and section.</source>
       <translation type="unfinished">When true, the fence will be colored like the original post and section.</translation>
     </message>
@@ -6005,7 +6005,7 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchBuildingPart.py" line="287"/>
       <source>BuildingPart</source>
-      <translation type="unfinished">BuildingPart</translation>
+      <translation>Μέρος Κτιρίου</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="291"/>
@@ -6299,12 +6299,12 @@ Building creation aborted.</translation>
   <context>
     <name>Arch_Fence</name>
     <message>
-      <location filename="../../ArchFence.py" line="388"/>
+      <location filename="../../ArchFence.py" line="382"/>
       <source>Fence</source>
       <translation>Φράκτης</translation>
     </message>
     <message>
-      <location filename="../../ArchFence.py" line="391"/>
+      <location filename="../../ArchFence.py" line="385"/>
       <source>Creates a fence object from a selected section, post and path</source>
       <translation type="unfinished">Creates a fence object from a selected section, post and path</translation>
     </message>
@@ -6727,7 +6727,7 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchCommands.py" line="1514"/>
       <source>Closes holes in open shapes, turning them solids</source>
-      <translation type="unfinished">Closes holes in open shapes, turning them solids</translation>
+      <translation>Κλείνει τρύπες σε ανοιχτά σχήματα, μετατρέποντάς τα σε στερεά</translation>
     </message>
   </context>
   <context>

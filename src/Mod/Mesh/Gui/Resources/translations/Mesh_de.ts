@@ -1346,12 +1346,22 @@
       <translation>Export von AMF-Dateien mit Komprimierung</translation>
     </message>
     <message>
-      <location filename="../../DlgSettingsImportExport.ui" line="95"/>
+      <location filename="../../DlgSettingsImportExport.ui" line="82"/>
+      <source>Always export mesh as model type in 3MF format even if not a solid</source>
+      <translation type="unfinished">Always export mesh as model type in 3MF format even if not a solid</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsImportExport.ui" line="85"/>
+      <source>Export 3MF files as model type</source>
+      <translation type="unfinished">Export 3MF files as model type</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsImportExport.ui" line="114"/>
       <source>Width:</source>
       <translation>Breite:</translation>
     </message>
     <message>
-      <location filename="../../DlgSettingsImportExport.ui" line="119"/>
+      <location filename="../../DlgSettingsImportExport.ui" line="138"/>
       <source>Height:</source>
       <translation>Höhe:</translation>
     </message>
@@ -1828,7 +1838,7 @@ Flächenwinkel &lt; SickenWinkel, wird glattes Schattieren angewendet</translati
       <location filename="../../Segmentation.ui" line="206"/>
       <location filename="../../Segmentation.ui" line="303"/>
       <source>Minimum number of faces</source>
-      <translation>Minimale Anzahl von Dreiecken</translation>
+      <translation>Mindestanzahl von Dreiecken</translation>
     </message>
     <message>
       <location filename="../../Segmentation.ui" line="83"/>
@@ -1903,7 +1913,7 @@ Flächenwinkel &lt; SickenWinkel, wird glattes Schattieren angewendet</translati
       <location filename="../../SegmentationBestFit.ui" line="106"/>
       <location filename="../../SegmentationBestFit.ui" line="159"/>
       <source>Minimum number of faces</source>
-      <translation>Minimale Anzahl von Dreiecken</translation>
+      <translation>Mindestanzahl von Dreiecken</translation>
     </message>
     <message>
       <location filename="../../SegmentationBestFit.ui" line="73"/>
