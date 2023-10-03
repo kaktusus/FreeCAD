@@ -137,10 +137,10 @@ class ObjectDressup:
         self.wire = None
         self.rapids = None
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, state):
+    def loads(self, state):
         return None
 
     def setup(self, obj):
@@ -546,7 +546,7 @@ class ObjectDressup:
                     queue = []
                 if (
                     obj.IncludeLayers
-                    and curCommand.z < currLocation["Z"]
+                    and curCommand.z < currLocation["Z"] and not Path.Geom.isRoughly(curCommand.z, currLocation["Z"])
                     and prevCmd.Name in movecommands
                 ):
                     # Layer change within move cmds
@@ -559,7 +559,10 @@ class ObjectDressup:
                     queue = []
 
                 # Save all move commands
-                queue.append(curCommand)
+                # getLeadStart and getLeadEnd incorrectly treat missing axis words as being 0.
+                currXYZ = { k: currLocation[k] for k in "XYZ" if k in currLocation }
+                tmp = Path.Command(curCommand.Name, currXYZ | curCommand.Parameters)
+                queue.append(tmp)
 
             currLocation.update(curCommand.Parameters)
             prevCmd = curCommand
@@ -660,10 +663,10 @@ class ViewProviderDressup:
             arg1.Object.Base = None
         return True
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, state):
+    def loads(self, state):
         return None
 
     def clearTaskPanel(self):
