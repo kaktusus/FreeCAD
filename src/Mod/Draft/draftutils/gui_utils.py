@@ -58,10 +58,7 @@ def get_3d_view():
     Returns
     -------
     Gui::View3DInventor
-        Return the current `ActiveView` in the active document,
-        or the first `Gui::View3DInventor` view found.
-
-        Return `None` if the graphical interface is not available.
+        Return the current `ActiveView` in the active document or `None`.
     """
     if App.GuiUp:
         # FIXME The following two imports were added as part of PR4926
@@ -73,12 +70,6 @@ def get_3d_view():
             if "View3DInventor" in str(type(v)):
                 return v
 
-            # print("Debug: Draft: Warning, not working in active view")
-            v = Gui.ActiveDocument.mdiViewsOfType("Gui::View3DInventor")
-            if v:
-                return v[0]
-
-    _wrn(translate("draft", "No graphical interface"))
     return None
 
 
@@ -132,7 +123,7 @@ def autogroup(obj):
                 gr.append(obj)
                 active_group.Group = gr
 
-    if Gui.ActiveDocument.ActiveView.getActiveObject("NativeIFC"):
+    if Gui.ActiveDocument.ActiveView.getActiveObject("NativeIFC") is not None:
         # NativeIFC handling
         try:
             import ifc_tools
@@ -142,7 +133,7 @@ def autogroup(obj):
         except:
             pass
 
-    elif Gui.ActiveDocument.ActiveView.getActiveObject("Arch"):
+    elif Gui.ActiveDocument.ActiveView.getActiveObject("Arch") is not None:
         # add object to active Arch Container
         active_arch_obj = Gui.ActiveDocument.ActiveView.getActiveObject("Arch")
         if active_arch_obj != active_group:
@@ -151,7 +142,7 @@ def autogroup(obj):
                 return
             active_arch_obj.addObject(obj)
 
-    elif Gui.ActiveDocument.ActiveView.getActiveObject("part", False) is not None:
+    elif Gui.ActiveDocument.ActiveView.getActiveObject("part") is not None:
         # add object to active part and change it's placement accordingly
         # so object does not jump to different position, works with App::Link
         # if not scaled. Modified accordingly to realthunder suggestions
@@ -501,10 +492,7 @@ def format_object(target, origin=None):
         tcol = (float(tcol[0]), float(tcol[1]), float(tcol[2]), 0.0)
         fcol = (float(fcol[0]), float(fcol[1]), float(fcol[2]), 0.0)
         lw = utils.getParam("linewidth",2)
-        fs = utils.getParam("textheight",0.20)
         if not origin or not hasattr(origin, 'ViewObject'):
-            if "FontSize" in obrep.PropertiesList:
-                obrep.FontSize = fs
             if "TextColor" in obrep.PropertiesList:
                 obrep.TextColor = tcol
             if "LineWidth" in obrep.PropertiesList:
