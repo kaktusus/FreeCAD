@@ -33,11 +33,12 @@ class MeshWorkbench(Workbench):
     "Mesh workbench object"
 
     def __init__(self):
+        from TranslateUtils import translate
         self.__class__.Icon = (
             FreeCAD.getResourceDir() + "Mod/Mesh/Resources/icons/MeshWorkbench.svg"
         )
-        self.__class__.MenuText = "Mesh"
-        self.__class__.ToolTip = "Mesh workbench"
+        self.__class__.MenuText = translate("InitGui", "Mesh")
+        self.__class__.ToolTip = translate("InitGui","Mesh workbench")
 
     def Initialize(self):
         import Mesh
