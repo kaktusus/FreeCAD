@@ -56,6 +56,7 @@
 #include "PreferencesGui.h"
 #include "QGIView.h"
 #include "TaskDetail.h"
+#include "TaskProjGroup.h"
 #include "ViewProviderViewPart.h"
 #include "ViewProviderPage.h"
 #include "QGIViewDimension.h"
@@ -108,13 +109,15 @@ ViewProviderViewPart::ViewProviderViewPart()
     ADD_PROPERTY_TYPE(CenterScale, (defScale), dgroup, App::Prop_None, "Center mark size adjustment, if enabled");
 
     //properties that affect Section Line
-    ADD_PROPERTY_TYPE(ShowSectionLine ,(true)    ,sgroup, App::Prop_None, "Show/hide section line if applicable");
+    ADD_PROPERTY_TYPE(ShowSectionLine ,(Preferences::showSectionLine()), sgroup, App::Prop_None, "Show/hide section line if applicable");
+    ADD_PROPERTY_TYPE(IncludeCutLine ,(Preferences::includeCutLine()), sgroup, App::Prop_None, "Show/hide section cut line if applicable");
     ADD_PROPERTY_TYPE(SectionLineStyle, (Preferences::SectionLineStyle()), sgroup, App::Prop_None,
                         "Set section line style if applicable");
     ADD_PROPERTY_TYPE(SectionLineColor, (prefSectionColor()), sgroup, App::Prop_None,
                         "Set section line color if applicable");
 
-     bool marksDefault  = Preferences::sectionLineConvention() == 1 ? true : false;
+    // Assumption: ASME does not use change marks and ISO does use change marks
+    bool marksDefault  = Preferences::sectionLineConvention() == 1 ? true : false;
     ADD_PROPERTY_TYPE(SectionLineMarks, (marksDefault), sgroup, App::Prop_None,
                         "Show marks at direction changes for ComplexSection");
 
@@ -175,6 +178,7 @@ void ViewProviderViewPart::onChanged(const App::Property* prop)
         prop == &(SectionLineStyle) ||
         prop == &(SectionLineColor) ||
         prop == &(SectionLineMarks) ||
+        prop == &(IncludeCutLine)  ||
         prop == &(HighlightLineStyle) ||
         prop == &(HighlightLineColor) ||
         prop == &(HorizCenterLine) ||
@@ -264,6 +268,10 @@ bool ViewProviderViewPart::setEdit(int ModNum)
     if (Gui::Control().activeDialog())  {         //TaskPanel already open!
         return false;
     }
+
+    // clear the selection (convenience)
+    Gui::Selection().clearSelection();
+
     TechDraw::DrawViewPart* dvp = getViewObject();
     TechDraw::DrawViewDetail* dvd = dynamic_cast<TechDraw::DrawViewDetail*>(dvp);
     if (dvd) {
@@ -271,12 +279,14 @@ bool ViewProviderViewPart::setEdit(int ModNum)
             Base::Console().Error("DrawViewDetail - %s - has no BaseView!\n", dvd->getNameInDocument());
             return false;
         }
-        // clear the selection (convenience)
-        Gui::Selection().clearSelection();
         Gui::Control().showDialog(new TaskDlgDetail(dvd));
         Gui::Selection().clearSelection();
         Gui::Selection().addSelection(dvd->getDocument()->getName(),
                                         dvd->getNameInDocument());
+    }
+    else {
+        auto* view = dynamic_cast<TechDraw::DrawView*>(getObject());
+        Gui::Control().showDialog(new TaskDlgProjGroup(view, false));
     }
 
     return true;
@@ -333,17 +343,9 @@ void ViewProviderViewPart::handleChangedPropertyType(Base::XMLReader &reader, co
 
 bool ViewProviderViewPart::onDelete(const std::vector<std::string> & subNames)
 {
-    // if a cosmetic subelement is in the list of selected subNames then we treat this
-    // as a delete of the subelement and not a delete of the DVP
-    std::vector<std::string> removables = getSelectedCosmetics(subNames);
-    if (!removables.empty()) {
-        // we have cosmetics, so remove them and tell Std_Delete not to remove the DVP
-        deleteCosmeticElements(removables);
-        getViewObject()->recomputeFeature();
-        return false;
-    }
-
+    // Base::Console().Message("VPVP::onDelete(%d subNames)\n", subNames.size());
     // we cannot delete if the view has a section or detail view
+    (void) subNames;
     QString bodyMessage;
     QTextStream bodyMessageStream(&bodyMessage);
 
@@ -370,52 +372,6 @@ bool ViewProviderViewPart::canDelete(App::DocumentObject *obj) const
     return true;
 }
 
-//! extract the names of cosmetic subelements from the list of all selected elements
-std::vector<std::string> ViewProviderViewPart::getSelectedCosmetics(std::vector<std::string> subNames)
-{
-
-    std::vector<std::string> result;
-    // pick out any cosmetic vertices or edges in the selection
-    for (auto& sub : subNames) {
-        if (DU::getGeomTypeFromName(sub) == "Vertex") {
-            if (DU::isCosmeticVertex(getViewObject(), sub)) {
-                result.emplace_back(sub);
-            }
-        } else if (DU::getGeomTypeFromName(sub) == "Edge") {
-            if (DU::isCosmeticEdge(getViewObject(), sub)  ||
-                DU::isCenterLine(getViewObject(), sub)) {
-                result.emplace_back(sub);
-            }
-        }
-    }
-    return result;
-}
-
-//! delete cosmetic elements for a list of subelement names
-void ViewProviderViewPart::deleteCosmeticElements(std::vector<std::string> removables)
-{
-    for (auto& name : removables) {
-        if (DU::getGeomTypeFromName(name) == "Vertex") {
-            CosmeticVertex* vert = getViewObject()->getCosmeticVertexBySelection(name);
-            getViewObject()->removeCosmeticVertex(vert->getTagAsString());
-            continue;
-        }
-        if (DU::getGeomTypeFromName(name) == "Edge") {
-            CosmeticEdge* edge = getViewObject()->getCosmeticEdgeBySelection(name);
-            if (edge) {
-                // if not edge, something has gone very wrong!
-                getViewObject()->removeCosmeticEdge(edge->getTagAsString());
-                continue;
-            }
-            CenterLine* line = getViewObject()->getCenterLineBySelection(name);
-            if (line) {
-                getViewObject()->removeCenterLine(line->getTagAsString());
-                continue;
-            }
-        }
-    }
-}
-
 App::Color ViewProviderViewPart::prefSectionColor()
 {
     return PreferencesGui::sectionLineColor();
@@ -439,7 +395,12 @@ int ViewProviderViewPart::prefHighlightStyle()
 // TODO: does this need to be implemented for Leaderlines and ???? others?
 void ViewProviderViewPart::fixSceneDependencies()
 {
-    auto scene = getViewProviderPage()->getQGSPage();
+    auto page = getViewProviderPage();
+    if (!page) {
+        return;
+    }
+
+    auto scene = page->getQGSPage();
     auto partQView = getQView();
 
     auto dimensions =  getViewPart()->getDimensions();

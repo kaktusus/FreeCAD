@@ -38,11 +38,11 @@
 #include <App/DocumentObject.h>
 #include <Gui/Application.h>
 #include <Gui/BitmapFactory.h>
+#include <Gui/CommandT.h>
 #include <Gui/Document.h>
 #include <Gui/MainWindow.h>
 #include <Gui/ViewProviderDocumentObject.h>
 #include <Mod/TechDraw/App/DrawHatch.h>
-#include <Mod/TechDraw/App/DrawLeaderLine.h>
 #include <Mod/TechDraw/App/DrawPage.h>
 #include <Mod/TechDraw/App/DrawProjGroupItem.h>
 #include <Mod/TechDraw/App/DrawTemplate.h>
@@ -263,9 +263,19 @@ void ViewProviderPage::unsetEdit(int ModNum)
 
 bool ViewProviderPage::doubleClicked(void)
 {
+    // assure the TechDraw workbench
+    if (App::GetApplication()
+        .GetUserParameter()
+        .GetGroup("BaseApp")
+        ->GetGroup("Preferences")
+        ->GetGroup("Mod/TechDraw")
+        ->GetBool("SwitchToWB", true)) {
+        Gui::Command::assureWorkbench("TechDrawWorkbench");
+    }
+
     show();
     if (m_mdiView) {
-        Gui::getMainWindow()->setActiveWindow(m_mdiView);
+        switchToMdiViewPage();
     }
     return true;
 }
@@ -329,7 +339,13 @@ void ViewProviderPage::createMDIViewPage()
     m_mdiView->setWindowTitle(tabTitle + QString::fromLatin1("[*]"));
     m_mdiView->setWindowIcon(Gui::BitmapFactory().pixmap("TechDraw_TreePage"));
     Gui::getMainWindow()->addWindow(m_mdiView);
+    switchToMdiViewPage();
+}
+
+void ViewProviderPage::switchToMdiViewPage()
+{
     Gui::getMainWindow()->setActiveWindow(m_mdiView);
+    m_graphicsView->setFocus();
 }
 
 //NOTE: removing MDIViewPage (parent) destroys QGVPage (eventually)
@@ -389,38 +405,28 @@ std::vector<App::DocumentObject*> ViewProviderPage::claimChildren(void) const
     }
 
     // Collect any child views
-    // for Page, valid children are any View except: DrawProjGroupItem
-    //                                               DrawViewDimension
+    // for Page, valid children are any View except: DrawViewDimension
     //                                               DrawViewBalloon
-    //                                               DrawLeaderLine
     //                                               any FeatuerView in a DrawViewClip
     //                                               DrawHatch
-    //                                               DrawWeldSymbol
-
-    const std::vector<App::DocumentObject*>& views = getDrawPage()->Views.getValues();
 
     try {
-        for (std::vector<App::DocumentObject*>::const_iterator it = views.begin();
-             it != views.end(); ++it) {
-            TechDraw::DrawView* featView = dynamic_cast<TechDraw::DrawView*>(*it);
+        for (auto* obj : getDrawPage()->Views.getValues()) {
+            auto* featView = dynamic_cast<TechDraw::DrawView*>(obj);
 
             // If the child view appoints a parent, skip it
             if (featView && featView->claimParent()) {
                 continue;
             }
 
-            App::DocumentObject* docObj = *it;
-            // Don't collect if dimension, projection group item, hatch or member of ClipGroup as these should be grouped elsewhere
-            if (docObj->isDerivedFrom(TechDraw::DrawProjGroupItem::getClassTypeId())
-                || docObj->isDerivedFrom(TechDraw::DrawViewDimension::getClassTypeId())
-                || docObj->isDerivedFrom(TechDraw::DrawHatch::getClassTypeId())
-                || docObj->isDerivedFrom(TechDraw::DrawViewBalloon::getClassTypeId())
-                || docObj->isDerivedFrom(TechDraw::DrawLeaderLine::getClassTypeId())
-                || docObj->isDerivedFrom(TechDraw::DrawWeldSymbol::getClassTypeId())
+            // Don't collect if dimension, balloon, hatch or member of ClipGroup as these should be grouped elsewhere
+            if (obj->isDerivedFrom<TechDraw::DrawViewDimension>()
+                || obj->isDerivedFrom<TechDraw::DrawHatch>()
+                || obj->isDerivedFrom<TechDraw::DrawViewBalloon>()
                 || (featView && featView->isInClip()))
                 continue;
             else
-                temp.push_back(*it);
+                temp.push_back(obj);
         }
         return temp;
     }
@@ -450,7 +456,7 @@ void ViewProviderPage::setTemplateMarkers(bool state)
     templateFeat = getDrawPage()->Template.getValue();
     Gui::Document* guiDoc = Gui::Application::Instance->getDocument(templateFeat->getDocument());
     Gui::ViewProvider* vp = guiDoc->getViewProvider(templateFeat);
-    ViewProviderTemplate* vpt = dynamic_cast<ViewProviderTemplate*>(vp);
+    auto* vpt = dynamic_cast<ViewProviderTemplate*>(vp);
     if (vpt) {
         vpt->setMarkers(state);
         QGITemplate* t = vpt->getQTemplate();
@@ -565,7 +571,7 @@ void ViewProviderPage::fixSceneDependencies()
         if (!vp) {
             continue;// can't fix this one
         }
-        TechDrawGui::ViewProviderViewPart* vpvp = dynamic_cast<TechDrawGui::ViewProviderViewPart*>(vp);
+        auto* vpvp = dynamic_cast<TechDrawGui::ViewProviderViewPart*>(vp);
         if (!vpvp) {
             continue;// can't fix this one
         }

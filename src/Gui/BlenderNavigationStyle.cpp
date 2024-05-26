@@ -172,9 +172,7 @@ SbBool BlenderNavigationStyle::processSoEvent(const SoEvent * const ev)
         case SoMouseButtonEvent::BUTTON3:
             if (press) {
                 this->centerTime = ev->getTime();
-                float ratio = vp.getViewportAspectRatio();
-                SbViewVolume vv = viewer->getSoRenderManager()->getCamera()->getViewVolume(ratio);
-                this->panningplane = vv.getPlane(viewer->getSoRenderManager()->getCamera()->focalDistance.getValue());
+                setupPanningPlane(getCamera());
                 this->lockrecenter = false;
             }
             else {
@@ -182,10 +180,7 @@ SbBool BlenderNavigationStyle::processSoEvent(const SoEvent * const ev)
                 float dci = (float)QApplication::doubleClickInterval()/1000.0f;
                 // is it just a middle click?
                 if (tmp.getValue() < dci && !this->lockrecenter) {
-                    if (!this->lookAtPoint(pos)) {
-                        panToCenter(panningplane, posn);
-                        this->interactiveCountDec();
-                    }
+                    lookAtPoint(pos);
                     processed = true;
                 }
             }
@@ -256,10 +251,13 @@ SbBool BlenderNavigationStyle::processSoEvent(const SoEvent * const ev)
     case BUTTON1DOWN:
     case CTRLDOWN|BUTTON1DOWN:
         // make sure not to change the selection when stopping spinning
-        if (curmode == NavigationStyle::SPINNING || this->lockButton1 && curmode != NavigationStyle::SELECTION)
+        if (curmode == NavigationStyle::SPINNING
+            || (this->lockButton1 && curmode != NavigationStyle::SELECTION)) {
             newmode = NavigationStyle::IDLE;
-        else
+        }
+        else {
             newmode = NavigationStyle::SELECTION;
+        }
         break;
     case BUTTON1DOWN|BUTTON2DOWN:
         newmode = NavigationStyle::PANNING;
